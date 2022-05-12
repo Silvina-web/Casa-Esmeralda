@@ -1,0 +1,54 @@
+.imgback {
+  background-color: #a83e17da;
+}
+
+header {
+  height: 20vh;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 1;
+  font-size: 5vw;
+  letter-spacing: 0.5vw;
+}
+
+header h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 1;
+}
+
+.main-container .secciones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.main-container .secciones a {
+  width: 20vw;
+  height: 30vh;
+}
+
+.main-container .secciones a img {
+  width: 20vw;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.544);
+}
+
+.main-container .secciones a img .objet-bottom {
+  object-position: bottom;
+}
+
+.main-container .secciones a .objet-center {
+  object-position: center;
+}
+
+.main-container .secciones a .objet-top {
+  object-position: top;
+}
+/*# sourceMappingURL=styles.css.map */

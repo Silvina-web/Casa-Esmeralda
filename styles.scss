@@ -1,0 +1,61 @@
+.imgback{
+ 
+ background-color: #a83e17da; 
+}
+
+
+
+header{
+  height: 20vh;
+  text-align: center;
+
+  h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1;
+    font-size: 5vw;
+    letter-spacing: 0.5vw;
+  }
+ 
+  h3{
+  
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1;
+  }
+  
+}
+
+
+.main-container{
+  .secciones{
+     display: flex;
+     flex-direction:row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     gap: 2rem;
+     
+  a{
+    
+    width: 20vw;
+    height: 30vh; 
+    
+  
+  
+    img{
+      width: 20vw;
+      height: 30vh;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.544);
+    .objet-bottom{
+      object-position: bottom;
+    }
+   }
+    .objet-center{
+        object-position: center;
+    }
+    .objet-top{
+      object-position: top;
+    }
+  }
+}
+}
