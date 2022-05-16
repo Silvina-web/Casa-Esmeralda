@@ -2,9 +2,16 @@
   background-color: #a83e17da;
 }
 
+@media (max-width: 450px) {
+  .imgback {
+    max-height: 110vh;
+  }
+}
+
 header {
   height: 20vh;
   text-align: center;
+  /* Media query celular */
 }
 
 header h1 {
@@ -19,9 +26,16 @@ header h3 {
   font-weight: 1;
 }
 
+@media (max-width: 450px) {
+  header {
+    padding-top: 2rem;
+  }
+}
+
 .main-container {
   width: 80vw;
   margin: auto;
+  /* Media query celular */
 }
 
 .main-container .secciones {
@@ -30,9 +44,6 @@ header h3 {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 5em;
-  /*  row-gap: 5rem;
-     column-gap: 5rem;
-      */
 }
 
 .main-container .secciones a {
@@ -69,19 +80,42 @@ header h3 {
   object-position: top;
 }
 
+@media (max-width: 450px) {
+  .main-container .secciones {
+    flex-direction: column;
+  }
+  .main-container .secciones a {
+    width: 70vw;
+    margin: auto;
+  }
+  .main-container .secciones a p {
+    font-size: 16px;
+  }
+  .main-container .secciones a img {
+    width: 70vw;
+  }
+}
+
 footer {
   width: 80vw;
   height: 7vh;
   background-color: #a83e17da;
   margin: auto;
   border-radius: 5px;
-  margin-top: 5rem;
+  margin-top: 7rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  /* Media query celular */
 }
 
 footer a {
   align-self: center;
+}
+
+@media (max-width: 450px) {
+  footer {
+    width: 100vw;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
