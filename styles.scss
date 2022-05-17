@@ -1,3 +1,6 @@
+
+
+
 .imgback{
     background-color: #a83e17da; 
     @media  (max-width: 450px){
@@ -135,3 +138,32 @@ footer{
 }
 
 
+
+
+/* Alfombras */
+.navbar{
+  outline: 2px solid blue;
+ 
+  .navbar-brand{
+    outline: 2px solid green;
+    color:aliceblue;  /* HOME */
+    margin: 1rem;
+    
+  }
+
+  .navbar-nav {
+   outline: 5px solid black;
+  margin: auto; 
+   
+/* 8 productos */
+.nav-link{
+  outline: 2px solid red;
+  background-color: rgba(240, 248, 255, 0.298);
+  border-radius: 5px;
+  margin-right: 1rem;
+  color:white;
+
+  
+}
+}
+}

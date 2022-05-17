@@ -118,4 +118,30 @@ footer a {
     width: 100vw;
   }
 }
+
+/* Alfombras */
+.navbar {
+  outline: 2px solid blue;
+}
+
+.navbar .navbar-brand {
+  outline: 2px solid green;
+  color: aliceblue;
+  /* HOME */
+  margin: 1rem;
+}
+
+.navbar .navbar-nav {
+  outline: 5px solid black;
+  margin: auto;
+  /* 8 productos */
+}
+
+.navbar .navbar-nav .nav-link {
+  outline: 2px solid red;
+  background-color: rgba(240, 248, 255, 0.298);
+  border-radius: 5px;
+  margin-right: 1rem;
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
