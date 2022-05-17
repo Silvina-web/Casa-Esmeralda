@@ -119,6 +119,11 @@ footer a {
   }
 }
 
+/* Header secciones */
+.header-secciones {
+  height: 10vh;
+}
+
 /* Alfombras */
 .navbar {
   outline: 2px solid blue;
