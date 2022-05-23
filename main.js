@@ -2,15 +2,11 @@ console.log("hola")
 
 const items = document.getElementById ('items')
 const templateCard = document.getElementById('template-card').content
-
 const fragment = document.createDocumentFragment()
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData()
 })
-
 const fetchData = async () => {
      try{
          const res = await fetch ('../Json/alfombras.json')
@@ -21,8 +17,6 @@ const fetchData = async () => {
          console.log (e)
      }
 }
-
-
 const pintarCards  = data  => {
     console.log(data)
     data.forEach(producto => {
@@ -32,9 +26,7 @@ const pintarCards  = data  => {
         templateCard.querySelector ('p').textContent = producto.precio
         templateCard.querySelector('img').setAttribute("src", producto.img)
 
-
-
-        const clone = templateCard.cloneNode(true)
+   const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     });
 
