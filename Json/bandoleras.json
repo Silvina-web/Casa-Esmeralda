@@ -1,9 +1,8 @@
 [
     {
-       "img":"../imgs/Celestina.jpg",
-       "nombre":"Alfombra roja",
-       "descripcion":"Alfombra bordada a mano",
-       
+       "img":"../imgs/Bandoleras.jpg",
+       "nombre":"Bandoleras",
+       "descripcion":"Bandolera bordada",
        "precio":500
     },
     {
