@@ -13,18 +13,16 @@ $color-principal:#a83e17da;
     @media  (max-width: 450px){
       max-height: 110vh;
     }
-
-
-
 }
+/* Header de la Home*/
 header{
   height: 20vh;
-  text-align: center;
+ text-align: center;
 
   h1{
     font-family: 'Quicksand', sans-serif;
     font-weight: 1;
-    font-size: 5vw;
+    font-size: vw;
     letter-spacing: 0.5vw;
   }
  
@@ -139,20 +137,48 @@ footer{
 /* fin footer */        
 
 
-
+/* -------------------------------------------------------------------------------------------------- */
 
 /* Header secciones */
 
 .header-secciones{
-  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+   height: 10vh;
   background-color: $color-principal;
   @include tipografiaSecciones;
-/*   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  */
-  /*  font-weight: 1;
-   letter-spacing: 0.5vw;
-   font-size: 3vw;
-   font-family: 'Quicksand', sans-serif ; */
+   .header-vacio{
+     width: 10%;
+     outline: 2px solid red;
+   }
+   .container-head{
+     width: 20%;
+    outline: 2px solid rgb(16, 53, 148);
+   }
+   .favoritos{
+    z-index: 1;
+     width: 10%;
+     outline: 2px solid green;
+     
+     
+      #boton-carrito {
+        border: none;
+        
+        font-size: 30px;
+        background-color: rgb(202, 111, 46);
+        border-radius: 50%;
+        padding: 10px 20px;
+        transition: all .3s;
     
+       span{
+        font-size: 15px;
+        
+     }
+    }
+   }
+  
   
 }
 
@@ -165,6 +191,7 @@ footer{
     outline: 2px solid green;
     color:aliceblue;  /* HOME */
     margin: 1rem;
+    
     
   }
 
@@ -213,25 +240,74 @@ footer{
 
 
 .container-bandoleras{
-
+  width: 80vw;
+  outline: 5px solid red;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 2rem;
+  margin: 5rem auto;
   img{
     width: 15vw;
   }
 }
-/* .card-bandoleras{
-  border: 1px solid black;
-  width: 18rem;
-  border-radius: 2px;
-  box-shadow: 2px 2px 2px rgb(205, 201, 201);
 
-  .card-band{
-    outline: 2px solid red;
-    img{
-      border-radius: 5px;
+
+
+
+
+
+
+
+
+.modal-contenedor{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+  opacity: 0;
+  visibility: hidden;
+  .modal-carrito{
+    position: relative;
+    background-color: aliceblue;
+    min-width: 500px;
+    padding: 20px;
+    margin-top: -20rem;
+    transition: all .5s;
+    h3{
+      color: rgb(26, 128, 217);
+    }
+    #carritoCerrar{
+
+    }
+    #carrito-contenedor{
+
+    }
+    p{
+    .precioProducto{
+      #precioTotal{
+
+      }
+
     }
   }
-} */
+  #vaciar-carrito{
+
+  }
+}
+}
+
+.modal-active{
+  opacity: 1;
+  visibility: visible;
+
+  .modal-carrito{
+    margin-top: 0;
+  }
+}

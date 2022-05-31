@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/f37d9f2c54.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -17,10 +18,57 @@
   </head>
   <body>
     
-<header class="header-secciones">
- <h2>c·e</h2> 
- <h3>Casa Esmeralda</h3>
-</header>
+     <header class="header-secciones">
+                     <div class="header-vacio">
+                    </div>
+
+                   <div class="container-head">
+                      <h2>c·e</h2> 
+                      <h3>Casa Esmeralda</h3>
+                   </div>
+        <div class="favoritos">
+           <!--  <a href="../favoritos.html"><i class="fas fa-heart"></i></a> -->
+          <h1 id="titulo" class="titulo"></h1>
+          <button id="boton-carrito"> <img src="../imgs/Heart32.png" alt="">  <span id="contadorCarrito">0</span></button>
+        </div>
+
+       <!--   <div class="container-carro">
+               <div class="container-heart">  <img src="../imgs/Heart32.png" alt="">
+                  <p>Mis favoritos</p>
+                </div>
+                       <div class="favoritos">
+                                  <table class="table">
+                                      <thead>
+                                                <tr>
+                                                  <th>Imagen</th>
+                                                  <th>Nombre</th>
+                                                  <th>Precio</th>
+                                                </tr>
+                                     </thead>
+                                 <tbody>
+                                               <tr>
+                                                  <td>
+                                                     <img src="../imgs/Bandoleras.jpg"    width="50px" alt="">
+                                                  </td>
+                                                  <td>Bandolera</td>
+                                                  <td>$15</td>
+                                                  <td> <a href="#" class="eliminar"></a></td>
+                                              </tr>
+
+                                              <tr>
+                                                  <td>
+                                                     <img src="../imgs/Bandoleras.jpg"  width="50px"  alt="">
+                                                  </td>
+                                                  <td>Bandolera</td>
+                                                  <td>$15</td>
+                                                  <td> <a href="#" class="eliminar"></a></td>
+                                                  
+                                </tbody>
+                                  </table>
+
+                       </div>
+                       </div> -->
+        </header>
   
 
     <nav class="navbar navbar-expand-lg" style="background-color: #a83e17da;">
@@ -75,36 +123,26 @@
     <div class="container-bandoleras"  id="items-bandoleras">
   </div>
 
- <!-- <div class="card-bandoleras" >   
-       <div class="card-band" style="width: 18rem;">
-           <img src="../imgs/Bandoleras.jpg" alt="" class ="card-img-top">
-       </div>
-           
-            <div class="card-body">
-                 <h5>Bandolera</h5>
-                 <h6>Bandolera tejida</h6>
-                 <h6>Medidas</h6>
-                 <p> $ 500</p>
-             </div>
-       
-   </div>
- -->
 
+
+  <div class="modal-contenedor">
+    <div class="modal-carrito">
+        <h3>Favoritos</h3>
+        <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+        <div id="carrito-contenedor">
+           <!--   <div class="productoEnCarrito">
+                <p>Buzo 1</p>
+                <p>Precio: $1200</p>
+                <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+            </div> -->
+        </div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+        <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+    </div>
+</div>
+
+ 
   
-
-  <!-- <template id="template-card"> 
-   <div class="main-card" >   
-       <div class="card" style="width: 18rem;">
-           <img src="" alt="" class ="card-img-top">
-              <div class="card-body">
-                 <h5>Titulo</h5>
-                 <h6>Descripcion</h6>
-                 <p>precio</p>
-             </div>
-       </div>
-   </div>
-  </template> 
- -->
 
 
 
@@ -116,8 +154,10 @@
     crossorigin="anonymous"></script>
 
 
-
+    <script src="../js/modal.js"></script>
     <script src="../js/bandoleras.js"></script>
+    <script src="../main.js"></script>
+    
    <!--  <script src="../main.js"></script> -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

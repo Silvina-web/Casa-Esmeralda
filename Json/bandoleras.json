@@ -1,48 +1,48 @@
 [
-    {
-       "img":"../imgs/Bandoleras.jpg",
+    { "id": 1,
+       "img":"../imgs/Celestina.jpg",
        "nombre":"Bandoleras",
        "descripcion":"Bandolera bordada",
        "precio":500
     },
-    {
+    { "id": 2,
        "img":"../imgs/Celestina.jpg",
        "nombre":"Alfombra roja",
        "descripcion":"Alfombra bordada a mano",
        "precio":500
     },
-    {
+    { "id": 3,
        "img":"../imgs/Celestina.jpg",
        "nombre":"Alfombra roja",
        "descripcion":"Alfombra bordada a mano",
        "precio":500
     },
-    {
+    { "id": 4,
        "img":"../imgs/Celestina.jpg",
        "nombre":"Alfombra roja",
        "descripcion":"Alfombra bordada a mano ",
        
        "precio": 500
     },
-    {
+    { "id": 5,
         "img":"../imgs/Celestina.jpg",
         "nombre":"Alfombra roja",
         "descripcion":"Alfombra bordada a mano",
         "precio":500
      },
-     {
+     { "id": 6,
         "img":"../imgs/Celestina.jpg",
         "nombre":"Alfombra roja",
         "descripcion":"Alfombra bordada a mano",
         "precio":500
      },
-     {
+     { "id": 7,
       "img":"../imgs/Celestina.jpg",
       "nombre":"Alfombra roja",
       "descripcion":"Alfombra bordada a mano",
       "precio":500
    },
-   {
+   { "id": 8,
       "img":"../imgs/Celestina.jpg",
       "nombre":"Alfombra roja",
       "descripcion":"Alfombra bordada a mano",
