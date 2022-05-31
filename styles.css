@@ -248,6 +248,15 @@ footer a {
   color: #1a80d9;
 }
 
+.modal-contenedor .modal-carrito #carritoCerrar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: #1a80d9;
+  cursor: pointer;
+}
+
 .modal-active {
   opacity: 1;
   visibility: visible;
