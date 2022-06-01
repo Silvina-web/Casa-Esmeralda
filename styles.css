@@ -265,4 +265,12 @@ footer a {
 .modal-active .modal-carrito {
   margin-top: 0;
 }
+
+.producto-carrito {
+  outline: 2px solid red;
+}
+
+.producto-carrito img {
+  width: 10vw;
+}
 /*# sourceMappingURL=styles.css.map */
