@@ -1,4 +1,5 @@
 console.log("hola")
+
 /* Alfombras */
 const items = document.getElementById ('items')
 const templateCard = document.getElementById('template-card').content

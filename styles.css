@@ -122,7 +122,7 @@ footer a {
 }
 
 /* fin footer */
-/* -------------------------------------------------------------------------------------------------- */
+/* ----------FINAL DE LA HOME---------------------------------------------------------------------------------------- */
 /* Header secciones */
 .header-secciones {
   display: flex;
@@ -139,7 +139,7 @@ footer a {
 
 .header-secciones .header-vacio {
   width: 10%;
-  outline: 2px solid red;
+  outline: 8px solid red;
 }
 
 .header-secciones .container-head {
@@ -156,7 +156,7 @@ footer a {
 .header-secciones .favoritos #boton-carrito {
   border: none;
   font-size: 30px;
-  background-color: #ca6f2e;
+  background-color: rgba(194, 74, 30, 0.841);
   border-radius: 50%;
   padding: 10px 20px;
   transition: all .3s;
@@ -217,10 +217,50 @@ footer a {
   margin: 5rem auto;
 }
 
-.container-bandoleras img {
+.container-bandoleras .card-bandoleras {
+  border: 1px solid rgba(215, 102, 16, 0.466);
+  padding: 0.01rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(217, 117, 41, 0.515);
+}
+
+.container-bandoleras .card-bandoleras img {
   width: 15vw;
 }
 
+.container-bandoleras .card-bandoleras h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 1;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: .3rem;
+}
+
+.container-bandoleras .card-bandoleras h6 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-bandoleras .card-bandoleras p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-bandoleras .card-bandoleras .button-favoritos {
+  background-color: #a83e17da;
+  border-radius: 5px;
+  padding: 0.5rem, 0.3rem;
+  border: none;
+  font-size: 1vw;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1rem;
+}
+
+/*  modal  */
 .modal-contenedor {
   position: fixed;
   top: 0;
@@ -245,7 +285,9 @@ footer a {
 }
 
 .modal-contenedor .modal-carrito h3 {
-  color: #1a80d9;
+  color: #a83e17da;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
 }
 
 .modal-contenedor .modal-carrito #carritoCerrar {
@@ -253,8 +295,10 @@ footer a {
   top: 15px;
   right: 15px;
   font-size: 30px;
-  color: #1a80d9;
+  color: rgba(217, 87, 26, 0.865);
   cursor: pointer;
+  border: none;
+  border-radius: 50px;
 }
 
 .modal-active {
@@ -267,10 +311,25 @@ footer a {
 }
 
 .producto-carrito {
-  outline: 2px solid red;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  outline: 2px solid #ff5100;
 }
 
 .producto-carrito img {
-  width: 10vw;
+  width: 5vw;
+}
+
+.producto-carrito h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 1;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: .3rem;
+  font-size: 15px;
 }
 /*# sourceMappingURL=styles.css.map */

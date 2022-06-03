@@ -4,7 +4,7 @@
        "nombre":"Alfombra roja",
        "descripcion":"Alfombra bordada a mano",
        
-       "precio":500
+       "precio": 500
     },
     {
        "img":"../imgs/Celestina.jpg",
