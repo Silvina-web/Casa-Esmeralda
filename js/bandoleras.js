@@ -1,30 +1,23 @@
 console.log("bandoleras")
 
-const items= document.getElementById('items-bandoleras')
+const itemsB= document.getElementById('itemsB-bandoleras')
 const contenedorCarrito= document.getElementById('carrito-contenedor')
 const vaciarCarrito= document.getElementById('vaciar-carrito')
 const contadorCarrito = document.getElementById('contadorCarrito') /* ubicado en el head de las secciones, no del home */
 const precioTotal= document.getElementById('precioTotal') /* ubicado en el modal */
 
 
-vaciarCarrito.addEventListener('click',()=> {
-    while(contenedorCarrito.firstChild){
-        contenedorCarrito.removeChild(contenedorCarrito.firstChild)
-    }
-    contadorCarrito.innerText= 0
-})
-
-
-
-
-
-
+             vaciarCarrito.addEventListener('click',()=> {
+                   while(contenedorCarrito.firstChild){
+                   contenedorCarrito.removeChild(contenedorCarrito.firstChild)
+                                                       }
+                                    contadorCarrito.innerText= 0
+                                                      })
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData()
+  
    
-  
-  
 })
 
 
@@ -43,52 +36,43 @@ const fetchData= async () => {
 }
 
 
-
 const renderizar= data => {
-
- let carrito=[]
-     data.forEach(element => {
+let carrito=[]
+    data.forEach(element => {
      const div= document.createElement ('div')
-     /* div.classList.add('card-bandoleras') */
+     div.classList.add('card-bandoleras')
      div.innerHTML =`
     <img src= ${element.img} alt="foto de bandolera">
     <h5>${element.nombre}</h5>
     <h6>${element.descripcion}</h6>
-    <p>precio:$ ${element.precio}</p>
+    <p>Precio: $ ${element.precio}</p>
     <button id="agregar${element.id}" class="button-favoritos">  <i class="fas fa-heart"> </i> </button>
   `
-  items.appendChild(div)
+         itemsB.appendChild(div)
 
-  
+              const boton= document.getElementById(`agregar${element.id}`) 
+                    boton.addEventListener('click',()=> {
+                       agregarCarrito(element.id)
+                                                         }
+                                              )
+        
 
-
-  
-  
-
- 
-
-  const boton= document.getElementById(`agregar${element.id}`) 
-  boton.addEventListener('click',()=> {
-      agregarCarrito(element.id)
-  })
   
      }
+         )
 
-    
-)
+
  const agregarCarrito= (prodId) => {
  const existe= carrito.some (item => item.id === prodId)
     if(existe){
-    
+            swal("Ya lo tenes en favoritos!");
+           } 
 
-        alert('ya esta en el carrito')
-        
 
-    }
- const item= data.find(item => item.id === prodId)
-     carrito.push(item)
+     const item= data.find(item => item.id === prodId)
+                 carrito.push(item)
       actualizarCarro()
-     console.log(carrito)
+              console.log(carrito)
  }
  
 
@@ -108,6 +92,7 @@ const actualizarCarro= (item) => {
         div.className =('producto-carrito')	
         div.innerHTML= `
         <img src= ${item.img} alt="foto de bandolera"> 
+       
         <h5>${item.nombre}</h5>
         <h6>${item.descripcion}</h6>
         <p>precio:$ ${item.precio}</p>
@@ -115,6 +100,8 @@ const actualizarCarro= (item) => {
         <button id="eliminar${item.id}" >Eliminar</button>
         `
         contenedorCarrito.appendChild(div)
+
+     localStorage.setItem('carrito', JSON.stringify(carrito))
 
   
         
@@ -137,6 +124,12 @@ const actualizarCarro= (item) => {
     
    
 
+}
+
+
+if(localStorage.getItem('carrito')){
+    carrito= JSON.parse(localStorage.getItem('carrito'))
+    actualizarCarro()
 }
 
 }
