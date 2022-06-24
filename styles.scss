@@ -211,12 +211,35 @@ footer{
 }
 }
 
-/* tarjetas */
+/* Corazon estilos */
 
+header{
+   button{
+    z-index: 1;
+    border: none;
+  
+    background-color: rgba(194, 74, 30, 0.05); 
+    border-radius: 5px;
+    margin-right: 1rem;
+    color:white; 
+    i{
+      font-size: 2rem;
+      
+    }
+    span{
+      font-size: 1rem;
+    }
+  }
+  }
+
+/* fin corazon estilos */
+
+
+ /* Alfombras */
 .container-cards{
-   outline: 5px solid red;
-   padding-top: 5rem;
-   width: 80vw;
+  outline: 5px solid rgb(255, 234, 0);
+  padding-top: 5rem;
+  width: 80vw;
   margin: auto;
   display:flex;
   flex-direction: row;
@@ -301,7 +324,7 @@ footer{
 
 /*  modal  */
 
-.modal-contenedor{
+ .modal-contenedor{
   position: fixed;
   top: 0;
   width: 100vw;
@@ -337,7 +360,7 @@ footer{
 
 
     }
-    #carrito-contenedor{
+  /*    #carrito-contenedor{
 
     }
     p{
@@ -350,11 +373,11 @@ footer{
   }
   #vaciar-carrito{
 
-  }
-}
+  } */
+} 
 }
 
-.modal-active{
+ .modal-active{
   opacity: 1;
   visibility: visible;
 
@@ -382,4 +405,4 @@ footer{
     font-size: 15px;
    
   }
-}
+}  

@@ -92,7 +92,6 @@ const actualizarCarro= (item) => {
         div.className =('producto-carrito')	
         div.innerHTML= `
         <img src= ${item.img} alt="foto de bandolera"> 
-       
         <h5>${item.nombre}</h5>
         <h6>${item.descripcion}</h6>
         <p>precio:$ ${item.precio}</p>

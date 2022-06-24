@@ -192,9 +192,28 @@ footer a {
   color: white;
 }
 
-/* tarjetas */
+/* Corazon estilos */
+header button {
+  z-index: 1;
+  border: none;
+  background-color: rgba(194, 74, 30, 0.05);
+  border-radius: 5px;
+  margin-right: 1rem;
+  color: white;
+}
+
+header button i {
+  font-size: 2rem;
+}
+
+header button span {
+  font-size: 1rem;
+}
+
+/* fin corazon estilos */
+/* Alfombras */
 .container-cards {
-  outline: 5px solid red;
+  outline: 5px solid #ffea00;
   padding-top: 5rem;
   width: 80vw;
   margin: auto;
@@ -283,6 +302,20 @@ footer a {
   padding: 20px;
   margin-top: -20rem;
   transition: all .5s;
+  /*    #carrito-contenedor{
+
+    }
+    p{
+    .precioProducto{
+      #precioTotal{
+
+      }
+
+    }
+  }
+  #vaciar-carrito{
+
+  } */
 }
 
 .modal-contenedor .modal-carrito h3 {
