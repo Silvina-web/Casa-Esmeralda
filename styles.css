@@ -126,7 +126,7 @@ footer a {
 /* Header secciones */
 .header-secciones {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   height: 10vh;
@@ -135,11 +135,10 @@ footer a {
   font-weight: 1;
   font-size: 5vw;
   letter-spacing: 0.5vw;
-}
-
-.header-secciones .header-vacio {
-  width: 10%;
-  outline: 8px solid red;
+  /* .header-vacio{
+     width: 10%;
+     
+   } */
 }
 
 .header-secciones .container-head {
@@ -147,26 +146,7 @@ footer a {
   outline: 2px solid #103594;
 }
 
-.header-secciones .favoritos {
-  z-index: 1;
-  width: 10%;
-  outline: 2px solid green;
-}
-
-.header-secciones .favoritos #boton-carrito {
-  border: none;
-  font-size: 30px;
-  background-color: rgba(194, 74, 30, 0.841);
-  border-radius: 50%;
-  padding: 10px 20px;
-  transition: all .3s;
-}
-
-.header-secciones .favoritos #boton-carrito span {
-  font-size: 15px;
-}
-
-/* Alfombras */
+/* Barra de navegacion principal */
 .navbar {
   outline: 2px solid blue;
 }
@@ -179,38 +159,32 @@ footer a {
 }
 
 .navbar .navbar-nav {
-  outline: 5px solid black;
   margin: auto;
   /* 8 productos */
 }
 
 .navbar .navbar-nav .nav-link {
+  /*   outline: 2px solid rgb(75, 74, 74); */
+  /*  background-color: $color-principal; */
+  /*  border-radius: 5px; */
+  margin-right: 1rem;
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #a83e17da;
+}
+
+.titulo-seccion {
   outline: 2px solid red;
-  background-color: rgba(240, 248, 255, 0.298);
-  border-radius: 5px;
-  margin-right: 1rem;
-  color: white;
 }
 
-/* Corazon estilos */
-header button {
-  z-index: 1;
-  border: none;
-  background-color: rgba(194, 74, 30, 0.05);
-  border-radius: 5px;
-  margin-right: 1rem;
-  color: white;
+.titulo-seccion h2 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  padding: 2rem;
 }
 
-header button i {
-  font-size: 2rem;
-}
-
-header button span {
-  font-size: 1rem;
-}
-
-/* fin corazon estilos */
 /* Alfombras */
 .container-cards {
   outline: 5px solid #ffea00;

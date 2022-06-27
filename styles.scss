@@ -17,7 +17,7 @@ $color-principal:#a83e17da;
 /* Header de la Home*/
 header{
   height: 20vh;
- text-align: center;
+  text-align: center; 
 
   h1{
     font-family: 'Quicksand', sans-serif;
@@ -143,96 +143,69 @@ footer{
 
 .header-secciones{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
    height: 10vh;
   background-color: $color-principal;
   @include tipografiaSecciones;
-   .header-vacio{
+   /* .header-vacio{
      width: 10%;
-     outline: 8px solid red;
-   }
+     
+   } */
    .container-head{
      width: 20%;
     outline: 2px solid rgb(16, 53, 148);
    }
-   .favoritos{
-     z-index: 1;
-     width: 10%;
-     outline: 2px solid green;
-     
-     
-      #boton-carrito {
-        border: none;
-        font-size: 30px;
-        background-color: rgba(194, 74, 30, 0.841);
-        border-radius: 50%;
-        padding: 10px 20px;
-        transition: all .3s;
-    
-       span{
-        font-size: 15px;
-        
-     }
+  
     }
-   }
+   
   
   
-}
 
 
-/* Alfombras */
+
+/* Barra de navegacion principal */
 .navbar{
   outline: 2px solid blue;
- 
   .navbar-brand{
     outline: 2px solid green;
     color:aliceblue;  /* HOME */
     margin: 1rem;
-    
-    
-  }
-
-  .navbar-nav {
-   outline: 5px solid black;
-   margin: auto; 
+    }
+.navbar-nav {
+    margin: auto; 
    
 /* 8 productos */
 .nav-link{
+/*   outline: 2px solid rgb(75, 74, 74); */
+ /*  background-color: $color-principal; */
+ /*  border-radius: 5px; */
+  margin-right: 1rem; 
+  color:white; 
+   
+
+  
+}
+.nav-link:hover{
+  color: $color-principal;
+}
+
+
+}
+}
+
+.titulo-seccion{
   outline: 2px solid red;
-  background-color: rgba(240, 248, 255, 0.298);
-  border-radius: 5px;
-  margin-right: 1rem;
-  color:white;
-
-  
-}
-}
-}
-
-/* Corazon estilos */
-
-header{
-   button{
-    z-index: 1;
-    border: none;
-  
-    background-color: rgba(194, 74, 30, 0.05); 
-    border-radius: 5px;
-    margin-right: 1rem;
-    color:white; 
-    i{
-      font-size: 2rem;
-      
-    }
-    span{
-      font-size: 1rem;
-    }
+  h2{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 2rem;
   }
-  }
+}
 
-/* fin corazon estilos */
+
+
 
 
  /* Alfombras */

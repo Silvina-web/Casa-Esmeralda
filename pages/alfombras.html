@@ -21,10 +21,7 @@
 <header class="header-secciones">
      <h2>c·e</h2> 
      <h3>Casa Esmeralda</h3>
-     <button id="boton-carrito">
-            <i class="fas fa-heart"></i>
-            <span id="contadorCarrito">0</span>
-     </button>
+    
 </header>
   
 
@@ -41,10 +38,10 @@
               <a class="nav-link active" aria-current="page" href="../pages/alfombras.html">ALFOMBRAS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../pages/bandoleras.html">BANDOLERAS</a>
+              <a class="nav-link" aria-current="page" href="../pages/bandoleras.html">BANDOLERAS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../pages/bolsosLino.html">Bolsos de Lino</a>
+              <a class="nav-link" aria-current="page" href="../pages/bolsosLino.html">Bolsos de Lino</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Producto4</a>
@@ -73,14 +70,16 @@
     </nav>
 
 
-
+    <div class="titulo-seccion">
+      <h2>Alfombras</h2>
+   </div>
 
     <!-- Tarjetas renderizadas por js -->
   
-
+   
 
   <div class="container-cards"  id="items-alfombras">
-  
+           
   </div>
 
   <template id="template-card"> 
@@ -91,9 +90,7 @@
                  <h5>Titulo</h5>
                  <h6>Descripcion</h6>
                  <p>precio</p>
-                 <button class="button-favoritos">
-                     <i class="fas fa-heart"></i>
-                  </button>
+                
                  
              </div>
        </div>
@@ -104,21 +101,6 @@
  
 <!-- MODAL--------MODAL-------MODAL -->
 
- <div class="modal-contenedor">
-  <div class="modal-carrito">
-      <h3>Favoritos</h3>
-      <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
-      <div id="carrito-contenedor">
-         <!--   <div class="productoEnCarrito">
-              <p>Buzo 1</p>
-              <p>Precio: $1200</p>
-              <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
-          </div> -->
-      </div>
-     
-     
-  </div>
-</div>
 
 
 
