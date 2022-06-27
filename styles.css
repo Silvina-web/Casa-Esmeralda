@@ -183,7 +183,6 @@ footer a {
 
 /* Alfombras */
 .container-cards {
-  outline: 5px solid red;
   padding-top: 5rem;
   width: 80vw;
   height: 100vh;
@@ -193,6 +192,10 @@ footer a {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 2rem;
+}
+
+.card {
+  box-shadow: 2px 2px 5px #a83e17ab;
 }
 
 /* bandoleras */
