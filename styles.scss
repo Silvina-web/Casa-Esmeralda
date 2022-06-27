@@ -196,7 +196,7 @@ footer{
 }
 
 .titulo-seccion{
-  outline: 2px solid red;
+
   h2{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
@@ -210,9 +210,10 @@ footer{
 
  /* Alfombras */
 .container-cards{
-  outline: 5px solid rgb(255, 234, 0);
+  outline: 5px solid red;
   padding-top: 5rem;
   width: 80vw;
+  height: 100vh;
   margin: auto;
   display:flex;
   flex-direction: row;
@@ -236,7 +237,7 @@ footer{
 
 .container-bandoleras{
   width: 80vw;
-  outline: 5px solid red;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

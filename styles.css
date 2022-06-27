@@ -175,10 +175,6 @@ footer a {
   color: #a83e17da;
 }
 
-.titulo-seccion {
-  outline: 2px solid red;
-}
-
 .titulo-seccion h2 {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -187,9 +183,10 @@ footer a {
 
 /* Alfombras */
 .container-cards {
-  outline: 5px solid #ffea00;
+  outline: 5px solid red;
   padding-top: 5rem;
   width: 80vw;
+  height: 100vh;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -201,7 +198,6 @@ footer a {
 /* bandoleras */
 .container-bandoleras {
   width: 80vw;
-  outline: 5px solid red;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
