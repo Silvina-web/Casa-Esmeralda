@@ -40,7 +40,9 @@ const pintarCards  = data  => {
       /*   console.log(producto) */
         templateCard.querySelector ('h5').textContent = producto.nombre
         templateCard.querySelector('h6').textContent = producto.descripcion
-        templateCard.querySelector ('p').textContent = producto.precio
+        templateCard.querySelectorAll('p')[0].textContent = producto.medidas
+        templateCard.querySelectorAll('p')[1].textContent= producto.otros
+        templateCard.querySelectorAll('p')[2].textContent= producto.precio
         templateCard.querySelector('img').setAttribute("src", producto.img)
         
 

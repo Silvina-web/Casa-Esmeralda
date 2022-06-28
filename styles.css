@@ -198,6 +198,18 @@ footer a {
   box-shadow: 2px 2px 5px #a83e17ab;
 }
 
+.card h5 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card p {
+  font-family: 'Quicksand', sans-serif;
+}
+
 /* bandoleras */
 .container-bandoleras {
   width: 80vw;
