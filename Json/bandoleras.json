@@ -1,27 +1,34 @@
 [
     { "id": 1,
-       "img":"../imgs/Celestina.jpg",
-       "nombre":"Bandoleras",
-       "descripcion":"Bandolera bordada",
-       "precio":500
+       "img":"../imgs/Bandolera1.jpeg",
+       "nombre":"Bandolera Hawai Blanca",
+       "descripcion":"Bandolera lisa en lana acrílica y forrada en lino y tira en piel ecológica, confeccionada en técnica Punch.",
+       "medidas":"22x23",
+       "otros":"",
+       "precio": "€30"
     },
     { "id": 2,
-       "img":"../imgs/Celestina.jpg",
-       "nombre":"Alfombra roja",
-       "descripcion":"Alfombra bordada a mano",
-       "precio":500
+       "img":"../imgs/Bandolera3.jpeg",
+       "nombre":"Bandolera Hawai Negra",
+       "descripcion":"Bandolera lisa en lana acrílica y forrada en lino y tira en piel ecológica, confeccionada en técnica Punch.",
+         "medidas":"22x23",
+         "otros":"",
+       "precio":" €30"
     },
     { "id": 3,
-       "img":"../imgs/Celestina.jpg",
-       "nombre":"Alfombra roja",
-       "descripcion":"Alfombra bordada a mano",
-       "precio":500
+       "img":"../imgs/Bandolera2.jpeg",
+       "nombre":"Bandolera Martina de cuero",
+       "descripcion":"Bandolera de piel con bolsillos externo y división en dos partes , y tira regulable.",
+         "medidas":"25X17",
+         "otros":"Limpieza a seco",
+       "precio": " €55"
     },
     { "id": 4,
        "img":"../imgs/Celestina.jpg",
        "nombre":"Alfombra roja",
        "descripcion":"Alfombra bordada a mano ",
-       
+       "medidas":"10x10x10",
+         "otros":"Nada",
        "precio": 500
     },
     { "id": 5,

@@ -183,9 +183,10 @@ footer a {
 
 /* Alfombras */
 .container-cards {
+  outline: 2px solid #103594;
   padding-top: 5rem;
   width: 80vw;
-  height: 100vh;
+  height: 180vh;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -196,6 +197,7 @@ footer a {
 
 .card {
   box-shadow: 2px 2px 5px #a83e17ab;
+  height: 62vh;
 }
 
 .card h5 {
@@ -225,8 +227,12 @@ footer a {
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
-  box-shadow: 1px 1px 2px rgba(217, 117, 41, 0.515);
+  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
   width: 15vw;
+  /* h6{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  } */
 }
 
 .container-bandoleras .card-bandoleras img {
@@ -235,34 +241,17 @@ footer a {
 
 .container-bandoleras .card-bandoleras h5 {
   font-family: 'Quicksand', sans-serif;
-  font-weight: 1;
+  color: #a83e17da;
   font-size: 1vw;
   text-align: center;
-  padding-top: .3rem;
-}
-
-.container-bandoleras .card-bandoleras h6 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  /*  padding-top: .3rem; */
+  margin: 2rem 2rem;
 }
 
 .container-bandoleras .card-bandoleras p {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.container-bandoleras .card-bandoleras .button-favoritos {
-  background-color: #a83e17da;
-  border-radius: 5px;
-  padding: 0.5rem, 0.3rem;
-  border: none;
-  font-size: 1vw;
-  color: whitesmoke;
-  text-decoration: none;
-  margin-left: 50%;
-  margin-right: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0.3rem;
 }
 
 /*  modal  */
