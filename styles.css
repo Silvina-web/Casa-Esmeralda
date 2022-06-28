@@ -181,7 +181,7 @@ footer a {
   padding: 2rem;
 }
 
-/* Alfombras */
+/* Alfombras ------------------Alfombras---------Alfombras*/
 .container-cards {
   outline: 2px solid #103594;
   padding-top: 5rem;
@@ -197,23 +197,29 @@ footer a {
 
 .card {
   box-shadow: 2px 2px 5px #a83e17ab;
-  height: 62vh;
+  height: 68vh;
 }
 
 .card h5 {
   font-family: 'Quicksand', sans-serif;
+  color: #a83e17da;
+  text-align: center;
 }
 
 .card h6 {
   font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .card p {
   font-family: 'Quicksand', sans-serif;
+  text-align: center;
 }
 
-/* bandoleras */
-.container-bandoleras {
+/* bandoleras--------------------bandoleras ------------------------- */
+.container-cards {
+  outline: 2px solid #103594;
   width: 80vw;
   display: flex;
   flex-direction: row;
@@ -223,35 +229,63 @@ footer a {
   margin: 5rem auto;
 }
 
-.container-bandoleras .card-bandoleras {
+.container-cards .card-bandoleras {
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
   box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
   width: 15vw;
-  /* h6{
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-  } */
 }
 
-.container-bandoleras .card-bandoleras img {
+.container-cards .card-bandoleras img {
   width: 15vw;
 }
 
-.container-bandoleras .card-bandoleras h5 {
+.container-cards .card-bandoleras h5 {
   font-family: 'Quicksand', sans-serif;
   color: #a83e17da;
-  font-size: 1vw;
   text-align: center;
-  /*  padding-top: .3rem; */
   margin: 2rem 2rem;
 }
 
-.container-bandoleras .card-bandoleras p {
+.container-cards .card-bandoleras p {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  padding: 0.3rem;
+  padding: 0.5rem;
+}
+
+.container-cards .card-bandoleras .precio {
+  font-size: 20px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 1980px) and (min-width: 1499px) {
+  .container-cards .card-bandoleras {
+    width: 15vw;
+    height: 80vh;
+  }
+  .container-cards .card-bandoleras img {
+    width: 15vw;
+  }
+}
+
+@media (max-width: 1500px) {
+  .container-cards .card-bandoleras {
+    width: 30vw;
+  }
+  .container-cards .card-bandoleras img {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container-cards .card-bandoleras {
+    width: 70vw;
+  }
+  .container-cards .card-bandoleras img {
+    width: 70vw;
+  }
 }
 
 /*  modal  */

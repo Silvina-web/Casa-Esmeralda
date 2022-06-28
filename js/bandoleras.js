@@ -40,9 +40,9 @@ let carrito=[]
     <img src= ${element.img} alt="foto de bandolera">
     <h5>${element.nombre}</h5>
     <p>${element.descripcion}</p>
-    <p> Medidas:${element.medidas}</p>
+    <p> Medidas: ${element.medidas}</p>
     <p> ${element.otros}</p>
-    <p> ${element.precio}</p>
+    <p class="precio"> ${element.precio}</p>
    
   `
          itemsB.appendChild(div)
