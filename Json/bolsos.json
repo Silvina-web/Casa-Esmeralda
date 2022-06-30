@@ -69,7 +69,7 @@
    },
 
    { "id": 9,
-      "img":"../imgs/MiniBolsaIbiza2.jpeg",
+      "img":"../imgs/MiniBolsaIbiza.jpeg",
      "nombre":"Mini bolsa Ibiza",
     "descripcion":"Bolsa de lino con bolsillo interno y un ♥️ Bordado en el frente",
     "medidas":"45 x 45 aproximadamente.",
@@ -94,7 +94,7 @@
     "otros":"Limpieza con jabón neutro y secado a la sombra",
     "precio":"€20"
    },
-   
+
    { "id": 12,
       "img":"../imgs/MiniBolsaIbiza5.jpeg",
      "nombre":"Mini bolsa Ibiza",
