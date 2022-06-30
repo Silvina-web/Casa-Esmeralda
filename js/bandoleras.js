@@ -1,25 +1,14 @@
 console.log("bandoleras")
-
 const itemsB= document.getElementById('itemsB-bandoleras')
 
-
-
- 
-
-
-          
-
+/* ........................................... */          
 document.addEventListener('DOMContentLoaded', () => {
     fetchData()
-  
-   
-})
-
+  })
 
 const fetchData= async () => {
      try{
-        
-         const res = await fetch ('../Json/bandoleras.json')
+        const res = await fetch ('../Json/bandoleras.json')
          const data = await res.json ()
          console.log(data)
          renderizar(data)
@@ -27,8 +16,7 @@ const fetchData= async () => {
      } catch (error) {
          console.log (e)
      }
-     
-}
+    }
 
 
 const renderizar= data => {
@@ -48,18 +36,8 @@ let carrito=[]
          itemsB.appendChild(div)
 
               
-                                              
-        
-
-  
-     }
-         )
-
-
- 
- 
-
-
+}
+)
 }
 
 

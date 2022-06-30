@@ -1,0 +1,106 @@
+[
+    { "id": 1,
+       "img":"../imgs/BolsoMalibuCorazon.jpeg",
+       "nombre":"Bolso Malibu",
+       "descripcion":"Confeccionado a mano de Lino con aplique, técnica Punch Needle en lana acrílica .",
+       "medidas":"50 x 55",
+       "otros":"En stock para entrega inmediata, Cualquier consulta por DM a nuestra cuenta de IG!",
+       "precio":"€35"
+    },
+    { "id": 2,
+       "img":"../imgs/BolsoMalibuGris.jpeg",
+       "nombre":"Bolso Malibu",
+       "descripcion":"Confeccionado a mano de Lino con aplique, técnica Punch Needle en lana acrílica .",
+       "medidas":"50 x 55",
+       "otros":"En stock para entrega inmediata, Cualquier consulta por DM a nuestra cuenta de IG!",
+       "precio":"€35"
+    },
+    { "id": 3,
+       "img":"../imgs/BolsaMalibuVerde2.jpeg",
+       "nombre":"Bolso Malibu",
+       "descripcion":"Confeccionado a mano de Lino con aplique, técnica Punch Needle en lana acrílica .",
+       "medidas":"50 x 55",
+       "otros":"En stock para entrega inmediata, Cualquier consulta por DM a nuestra cuenta de IG!",
+       "precio":"€35"
+    },
+    { "id": 4,
+       "img":"../imgs/BolsoMalibuMarron.jpeg",
+        "nombre":"Bolso Malibu",
+       "descripcion":"Confeccionado a mano de Lino con aplique, técnica Punch Needle en lana acrílica .",
+       "medidas":"50 x 55",
+       "otros":"En stock para entrega inmediata, Cualquier consulta por DM a nuestra cuenta de IG!",
+       "precio":"€35"
+       
+    },
+    { "id": 5,
+      "img":"../imgs/BolsoMalibuRosa.jpeg",
+      "nombre":"Bolso Malibu",
+     "descripcion":"Confeccionado a mano de Lino con aplique, técnica Punch Needle en lana acrílica .",
+     "medidas":"50 x 55",
+     "otros":"En stock para entrega inmediata, Cualquier consulta por DM a nuestra cuenta de IG!",
+     "precio":"€35"
+     },
+     {
+       "id": 6,
+       "img":"../imgs/BolsoMechiNegro.jpeg",
+       "nombre":"Bolso Mechi",
+      "descripcion":"Bolso de piel con bolsillo interno y cierre.",
+      "medidas":"45 x 45",
+      "otros":"En stock para entrega inmediata, Cualquier consulta por DM a nuestra cuenta de IG!",
+      "precio":"€65"
+     },
+     {
+     "id": 7,
+     "img":"../imgs/BolsoMechiMarro.jpeg",
+     "nombre":"Bolso Mechi",
+    "descripcion":"Bolso de piel con bolsillo interno y cierre",
+    "medidas":"45 x 45",
+    "otros":"En stock para entrega inmediata, Cualquier consulta por DM a nuestra cuenta de IG!",
+    "precio":"€65"
+   },
+
+   { "id": 8,
+      "img":"../imgs/MiniBolsaIbiza1.jpeg",
+     "nombre":"Mini bolsa Ibiza",
+    "descripcion":"Bolsa de lino con bolsillo interno y un ♥️ Bordado en el frente",
+    "medidas":"45 x 45 aproximadamente.",
+    "otros":"Limpieza con jabón neutro y secado a la sombra",
+    "precio":"€20"
+   },
+
+   { "id": 9,
+      "img":"../imgs/MiniBolsaIbiza2.jpeg",
+     "nombre":"Mini bolsa Ibiza",
+    "descripcion":"Bolsa de lino con bolsillo interno y un ♥️ Bordado en el frente",
+    "medidas":"45 x 45 aproximadamente.",
+    "otros":"Limpieza con jabón neutro y secado a la sombra",
+    "precio":"€20"
+   },
+
+   { "id": 10,
+      "img":"../imgs/MiniBolsaIbiza3.jpeg",
+     "nombre":"Mini bolsa Ibiza",
+    "descripcion":"Bolsa de lino con bolsillo interno y un ♥️ Bordado en el frente",
+    "medidas":"45 x 45 aproximadamente.",
+    "otros":"Limpieza con jabón neutro y secado a la sombra",
+    "precio":"€20"
+   },
+
+   { "id": 11,
+      "img":"../imgs/MiniBolsaIbiza4.jpeg",
+     "nombre":"Mini bolsa Ibiza",
+    "descripcion":"Bolsa de lino con bolsillo interno y un ♥️ Bordado en el frente",
+    "medidas":"45 x 45 aproximadamente.",
+    "otros":"Limpieza con jabón neutro y secado a la sombra",
+    "precio":"€20"
+   },
+   
+   { "id": 12,
+      "img":"../imgs/MiniBolsaIbiza5.jpeg",
+     "nombre":"Mini bolsa Ibiza",
+    "descripcion":"Bolsa de lino con bolsillo interno y un ♥️ Bordado en el frente",
+    "medidas":"45 x 45 aproximadamente.",
+    "otros":"Limpieza con jabón neutro y secado a la sombra",
+    "precio":"€20"
+   }
+ ]
