@@ -1,0 +1,85 @@
+[
+    {  "id": 1,
+       "img":"../imgs/Cojin-1.jpeg",
+       "nombre":"Cojin",
+       "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+       "medidas":"45 x 45 aproximadamente",
+       "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+       "precio":"€39"
+    },
+    {  "id": 2,
+        "img":"../imgs/Cojin-2.jpeg",
+        "nombre":"Cojin",
+        "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+        "medidas":"45 x 45 aproximadamente",
+        "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+        "precio":"€39"
+    },
+    { "id": 3,
+        "img":"../imgs/Cojin-3.jpeg",
+        "nombre":"Cojin",
+        "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+        "medidas":"45 x 45 aproximadamente",
+        "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+        "precio":"€39"
+    },
+    { "id": 4,
+        "img":"../imgs/Cojin-4.jpeg",
+        "nombre":"Cojin",
+        "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+        "medidas":"45 x 45 aproximadamente",
+        "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+        "precio":"€39"
+       
+    },
+    { "id": 5,
+        "img":"../imgs/Cojin-5.jpeg",
+        "nombre":"Cojin",
+        "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+        "medidas":"45 x 45 aproximadamente",
+        "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+        "precio":"€39"
+     },
+     {
+       "id": 6,
+       "img":"../imgs/Cojin.jpg",
+       "nombre":"Cojin",
+       "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+       "medidas":"45 x 45 aproximadamente",
+       "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+       "precio":"€39"
+     },
+     {
+     "id": 7,
+     "img":"../imgs/Cojin-7.jpeg",
+     "nombre":"Cojin",
+     "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+     "medidas":"45 x 45 aproximadamente",
+     "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+     "precio":"€39"
+   },
+
+   {
+       "id": 8,
+       "img":"../imgs/Cojin-8.jpeg",
+       "nombre":"Cojin",
+       "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+       "medidas":"45 x 45 aproximadamente",
+       "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+       "precio":"€39"
+   },
+
+   {
+     "id": 9,
+     "img":"../imgs/Cojin-9.jpeg",
+     "nombre":"Cojin",
+    "descripcion":"Cojín hecho a mano ,parte delantera realizada con técnica Punch Needle en diferentes agujas,parte trasera acabada con Lino de algodón",
+     "medidas":"45 x 45 aproximadamente.",
+    "otros":"Lavado: usar jabon neutro , lavar a mano , secar a la sombra y no planchar",
+    "precio":"€39"
+   }
+
+   
+
+  
+ ]

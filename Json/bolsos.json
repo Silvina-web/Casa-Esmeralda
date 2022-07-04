@@ -59,7 +59,8 @@
     "precio":"€65"
    },
 
-   { "id": 8,
+   {
+       "id": 8,
       "img":"../imgs/MiniBolsaIbiza1.jpeg",
      "nombre":"Mini bolsa Ibiza",
     "descripcion":"Bolsa de lino con bolsillo interno y un ♥️ Bordado en el frente",
@@ -68,7 +69,8 @@
     "precio":"€20"
    },
 
-   { "id": 9,
+   {
+       "id": 9,
       "img":"../imgs/MiniBolsaIbiza.jpeg",
      "nombre":"Mini bolsa Ibiza",
     "descripcion":"Bolsa de lino con bolsillo interno y un ♥️ Bordado en el frente",

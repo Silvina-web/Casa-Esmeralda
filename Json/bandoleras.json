@@ -15,7 +15,8 @@
          "otros":"",
        "precio":" €30"
     },
-    { "id": 3,
+    { 
+      "id": 3,
        "img":"../imgs/Bandolera2.jpeg",
        "nombre":"Bandolera Martina de cuero",
        "descripcion":"Bandolera de piel con bolsillos externo y división en dos partes.Tira regulable.",
@@ -23,36 +24,48 @@
          "otros":"Limpieza a seco",
        "precio": " €55"
     },
-    { "id": 4,
-       "img":"../imgs/Celestina.jpg",
-       "nombre":"Alfombra roja",
-       "descripcion":"Alfombra bordada a mano ",
-       "medidas":"10x10x10",
-         "otros":"Nada",
-       "precio": 500
+    { 
+      "id": 4,
+       "img":"../imgs/BandoCali1.jpeg",
+       "nombre":"Bandolera California Rayada",
+       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+       "medidas":"Diametro 23cm",
+       "otros":"  ",
+       "precio": " €30"
     },
-    { "id": 5,
-        "img":"../imgs/Celestina.jpg",
-        "nombre":"Alfombra roja",
-        "descripcion":"Alfombra bordada a mano",
-        "precio":500
+    {
+       "id": 5,
+       "img":"../imgs/BandoCali2.jpeg",
+       "nombre":"Bandolera California Rayada",
+       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+       "medidas":"Diametro 23cm",
+       "otros":"  ",
+       "precio": " €30"
      },
      { "id": 6,
-        "img":"../imgs/Celestina.jpg",
-        "nombre":"Alfombra roja",
-        "descripcion":"Alfombra bordada a mano",
-        "precio":500
+      "img":"../imgs/BandoCali3.jpeg",
+      "nombre":"Bandolera California Rayada",
+      "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+      "medidas":"20 x 22",
+      "otros":"  ",
+      "precio": " €30"
      },
-     { "id": 7,
-      "img":"../imgs/Celestina.jpg",
-      "nombre":"Alfombra roja",
-      "descripcion":"Alfombra bordada a mano",
-      "precio":500
+     {
+       "id": 7,
+       "img":"../imgs/BandoCali4.jpeg",
+       "nombre":"Bandolera California Rayada",
+       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+       "medidas":"20 x 22",
+       "otros":"  ",
+       "precio": " €30"
    },
-   { "id": 8,
-      "img":"../imgs/Celestina.jpg",
-      "nombre":"Alfombra roja",
-      "descripcion":"Alfombra bordada a mano",
-      "precio":500
+   { 
+      "id": 8,
+      "img":"../imgs/BandoCali5.jpeg",
+      "nombre":"Bandolera California Rayada",
+      "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+      "medidas":"20 x 22",
+      "otros":"  ",
+      "precio": " €30"
    }
  ]

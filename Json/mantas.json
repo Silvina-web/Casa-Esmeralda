@@ -1,0 +1,58 @@
+[
+    {  "id": 1,
+       "img":"../imgs/Manta-1.jpeg",
+       "nombre":"Manta Ana",
+       "descripcion":"Mantas 100% algodón confeccionada a mano en diferentes variantes y colores con terminación al crochet",
+       "medidas":"1.20 x 1.80",
+       "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
+       "precio":"€79"
+    },
+    {  "id": 2,
+      "img":"../imgs/Manta-2.jpeg",
+      "nombre":"Manta Ana",
+      "descripcion":"Mantas 100% algodón confeccionada a mano en diferentes variantes y colores con terminación al crochet",
+      "medidas":"1.20 x 1.80",
+      "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
+      "precio":"€79"
+    },
+    { "id": 3,
+      "img":"../imgs/Manta-3.jpeg",
+      "nombre":"Manta Ana",
+      "descripcion":"Mantas 100% algodón confeccionada a mano en diferentes variantes y colores con terminación al crochet",
+      "medidas":"1.20 x 1.80",
+      "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
+      "precio":"€79"
+    },
+    { "id": 4,
+      "img":"../imgs/Manta-4.jpeg",
+      "nombre":"Manta Ana",
+      "descripcion":"Mantas 100% algodón confeccionada a mano en diferentes variantes y colores con terminación al crochet",
+      "medidas":"1.20 x 1.80",
+      "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
+      "precio":"€79"
+       
+    },
+    { "id": 5,
+      "img":"../imgs/Manta-5.jpeg",
+      "nombre":"Manta Ana",
+      "descripcion":"Mantas 100% algodón confeccionada a mano en diferentes variantes y colores con terminación al crochet",
+      "medidas":"1.20 x 1.80",
+      "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
+      "precio":"€79"
+     },
+     {
+       "id": 6,
+       "img":"../imgs/Manta-6.jpeg",
+       "nombre":"Manta Ana",
+       "descripcion":"Mantas 100% algodón confeccionada a mano en diferentes variantes y colores con terminación al crochet",
+       "medidas":"1.20 x 1.80",
+       "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
+       "precio":"€79"
+     }
+  
+  
+
+   
+
+  
+ ]

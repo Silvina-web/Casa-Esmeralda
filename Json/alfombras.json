@@ -1,7 +1,7 @@
 [
     {
        "id": "1",
-       "img":"../imgs/Alfombra Bejis2.jpeg",
+       "img":"../imgs/AlfombraBejis2.jpeg",
        "nombre":"Alfombra Bejis",
        "descripcion":"Tejida con técnica Punch Needle, bordada a ,mano. Materiales lana y acrílico. ",
        "medidas":" Medidas: 2,50 x 2,50 cm",
@@ -11,53 +11,17 @@
     },
     {
       "id": "2",
-       "img":"../imgs/Alfombra Chobar.jpeg",
+       "img":"../imgs/AlfombraChobar.jpeg",
        "nombre":"Alfombra Chobar",
        "descripcion":"Tejida con  técnica Punch Needle, bordada a mano. Materiales lana y acrílico. ",
        "medidas":" Medidas: 1.90 x 0.90cm",
        "otros":"Limpieza con jabón neutro y secado a la sombra",
        "precio": "Consultar precio"
-    },
-    {
-       "id": "3",
-       "img":"../imgs/Celestina.jpg",
-       "nombre":"Alfombra roja",
-       "descripcion":"Alfombra bordada a mano",
-       "precio": "$500"
-    },
-    {
-       "id": "4",
-       "img":"../imgs/Celestina.jpg",
-       "nombre":"Alfombra roja",
-       "descripcion":"Alfombra bordada a mano ",
-       "precio": "$500"
-    },
-    {
-        "id": "5",
-        "img":"../imgs/Celestina.jpg",
-        "nombre":"Alfombra roja",
-        "descripcion":"Alfombra bordada a mano",
-        "precio": "$800"
-     },
-     {
-        "id": "6",
-        "img":"../imgs/Celestina.jpg",
-        "nombre":"Alfombra roja",
-        "descripcion":"Alfombra bordada a mano",
-        "precio": "$800"
-     },
-     {
-       "id": "7",
-       "img":"../imgs/Celestina.jpg",
-       "nombre":"Alfombra roja",
-       "descripcion":"Alfombra bordada a mano",
-       "precio":"$500"
-   },
-   {
-       "id": "8",
-      "img":"../imgs/Celestina.jpg",
-      "nombre":"Alfombra roja",
-      "descripcion":"Alfombra bordada a mano",
-      "precio": "$500"
-   }
+    }
+   
+   
+   
+    
+     
+   
  ]

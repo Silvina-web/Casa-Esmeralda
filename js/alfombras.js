@@ -1,19 +1,12 @@
 console.log("hola")
-
-/* Alfombras */
 const itemsAlfombras = document.getElementById ('items-alfombras')
-const templateCard = document.getElementById('template-card').content
-const fragment = document.createDocumentFragment()
-const contenedorCarrito = document.getElementById('carrito-contenedor')
+
 
 
 /* ------------------------------------------------------- */
 document.addEventListener('DOMContentLoaded', () => {
     fetchData()
-    if(localStorage.getItem('carrito')){
-        carrito = JSON.parse(localStorage.getItem('carrito'))
-        pintarAlfombras()
-    }
+  
    
     
 })
@@ -23,8 +16,8 @@ const fetchData = async () => {
      try{
          const res = await fetch ('../Json/alfombras.json')
          const data = await res.json ()
-         //console.log(data)
-         pintarCards(data)
+        
+         pintarAlfombras(data)
 
      } 
      catch (error) {
@@ -33,28 +26,24 @@ const fetchData = async () => {
 
     
 }
-/* ------------------------------------------------------- */
-const pintarCards  = data  => {
-   /*  console.log(data) */
-    data.forEach(producto => {
-      /*   console.log(producto) */
-        templateCard.querySelector ('h5').textContent = producto.nombre
-        templateCard.querySelector('h6').textContent = producto.descripcion
-        templateCard.querySelectorAll('p')[0].textContent = producto.medidas
-        templateCard.querySelectorAll('p')[1].textContent= producto.otros
-        templateCard.querySelectorAll('p')[2].textContent= producto.precio
-        templateCard.querySelector('img').setAttribute("src", producto.img)
-        
 
-   const clone = templateCard.cloneNode(true)
-        fragment.appendChild(clone)
-    });
-
-    itemsAlfombras.appendChild(fragment)
-}
+const pintarAlfombras = (data) => {
+    data.forEach(element => {
+        const divAlfombras = document.createElement('div');
+        divAlfombras.classList.add('card-alfombras');
+        divAlfombras.innerHTML = `
+        <img src=${element.img} alt="foto de alfombras">
+        <h5>${element.nombre}</h5>
+        <p>${element.descripcion}</p>
+        <p> Medidas: ${element.medidas}</p>
+        <p> ${element.otros}</p>
+        <p class="precio"> ${element.precio}</p>
+        `
+        itemsAlfombras.appendChild(divAlfombras);
+    }
+    )}
 
 
- 
 
 
 
