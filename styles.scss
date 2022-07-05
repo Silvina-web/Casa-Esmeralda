@@ -55,23 +55,19 @@ padding-top: 2rem;
        margin-top: 1rem;
      }
     img{
-      width: 15vw;
-      height: 25vh;
-      object-fit: cover;
-      border-radius: 5px;
+       width: 10vw;
+       
+       border-radius: 5px;
        box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.305); 
-    .objet-bottom{
-      object-position: bottom;
-    }
-   }
-     .objet-center{
-        object-position: center;
-    }
-     .objet-top{
-      object-position: top;
-    }
+
+      
+    } 
+   
+  
   }
 }
+
+
 
 /* Media query celular  main container*/
 
@@ -195,7 +191,9 @@ footer{
 }
 
 
-
+.navbar-toggler-icon{
+  outline: 2px solid red;
+}
 
 
  /* ALFOMBRAS ------------------ALFOMBRAS--------ALFOMBRAS-------------ALFOMBRAS*/
@@ -242,6 +240,39 @@ footer{
        
       }
   }
+
+  @media (max-width: 1980px)and (min-width: 1499px){
+    .card-alfombras{
+      width: 15vw;
+      height: 80vh;
+      img{
+        width: 15vw;
+      }
+    }
+  
+  }
+    
+  
+  @media  (max-width: 1500px){
+    .card-alfombras{
+      width: 30vw;
+  
+      img{
+        width: 30vw;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 750px){
+    .card-alfombras{
+      width: 70vw;
+  
+      img{
+        width: 70vw;
+      }
+    }
+  }
+  
 }
 
 
@@ -463,6 +494,39 @@ footer{
        
       }
   }
+  @media (max-width: 1980px)and (min-width: 1499px){
+    .card-cojines{
+      width: 15vw;
+      height: 80vh;
+      img{
+        width: 15vw;
+      }
+    }
+  
+  }
+    
+  
+  @media  (max-width: 1500px){
+    .card-cojines{
+      width: 30vw;
+  
+      img{
+        width: 30vw;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 750px){
+    .card-cojines{
+      width: 70vw;
+  
+      img{
+        width: 70vw;
+      }
+    }
+  }
+  
+
 }
 
 
@@ -511,6 +575,39 @@ footer{
        
       }
   }
+  @media (max-width: 1980px)and (min-width: 1499px){
+    .card-mantas{
+      width: 15vw;
+      height: 80vh;
+      img{
+        width: 15vw;
+      }
+    }
+  
+  }
+    
+  
+  @media  (max-width: 1500px){
+    .card-mantas{
+      width: 30vw;
+  
+      img{
+        width: 30vw;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 750px){
+    .card-mantas{
+      width: 70vw;
+  
+      img{
+        width: 70vw;
+      }
+    }
+  }
+  
+
 }
 
 
@@ -554,6 +651,38 @@ footer{
        
       }
   }
+  @media (max-width: 1980px)and (min-width: 1499px){
+    .card-delantales{
+      width: 15vw;
+      height: 80vh;
+      img{
+        width: 15vw;
+      }
+    }
+  
+  }
+    
+  
+  @media  (max-width: 1500px){
+    .card-delantales{
+      width: 30vw;
+  
+      img{
+        width: 30vw;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 750px){
+    .card-delantales{
+      width: 70vw;
+  
+      img{
+        width: 70vw;
+      }
+    }
+  }
+  
 }
 
  /* PONCHOS--------------------PONCHOS------------------ */
@@ -596,6 +725,38 @@ footer{
        
       }
   }
+  @media (max-width: 1980px)and (min-width: 1499px){
+    .card-ponchos{
+      width: 15vw;
+      height: 80vh;
+      img{
+        width: 15vw;
+      }
+    }
+  
+  }
+    
+  
+  @media  (max-width: 1500px){
+    .card-ponchos{
+      width: 30vw;
+  
+      img{
+        width: 30vw;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 750px){
+    .card-ponchos{
+      width: 70vw;
+  
+      img{
+        width: 70vw;
+      }
+    }
+  }
+  
 }
 
 /* personalizados......................PERSONALIZADOS */
