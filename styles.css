@@ -337,11 +337,11 @@ footer a {
   .container-alfombras .card-alfombras {
     outline: 5px solid #0a0a0a;
     margin: auto;
-    width: 50vw;
+    width: 70vw;
     margin-top: 2rem;
   }
   .container-alfombras .card-alfombras img {
-    width: 50vw;
+    width: 70vw;
   }
 }
 
@@ -354,12 +354,12 @@ footer a {
   }
   .container-alfombras .card-alfombras {
     outline: 5px solid #daf601;
-    width: 65vw;
+    width: 85vw;
     margin: auto;
     margin-top: 2rem;
   }
   .container-alfombras .card-alfombras img {
-    width: 65vw;
+    width: 85vw;
   }
 }
 
