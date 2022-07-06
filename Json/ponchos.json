@@ -1,13 +1,29 @@
 [
     {  "id": 1,
        "img":"../imgs/Ponchos.jpg",
-       "nombre":"Poncho Valeria",
-       "descripcion":"Deescripcion poncho",
-       "medidas":"Medida poncho",
-       "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
+       "nombre":"Poncho Garden",
+       "descripcion":"Tejido artesanal en lana mohair con terminación en crochet.",
+       "medidas":" Medidas 1,20 de ancho y 0,70 de largo.",
+       "otros":"Limpieza con jabón neutro , centrifugado y secado en la sombra ",
+       "precio":"€79"
+    },
+    {  "id": 1,
+      "img":"../imgs/PonchoBlanco.jpg",
+      "nombre":"Poncho Garden",
+      "descripcion":"Tejido artesanal en lana mohair con terminación en crochet.",
+      "medidas":" Medidas 1,20 de ancho y 0,70 de largo.",
+      "otros":"Limpieza con jabón neutro , centrifugado y secado en la sombra. ",
+      "precio":"€79"
+   },
+
+    {  "id": 1,
+       "img":"../imgs/PonchoRosa.jpg",
+       "nombre":"Poncho Garden",
+       "descripcion":"Tejido artesanal en lana mohair con terminación en crochet.",
+       "medidas":" Medidas 1,20 de ancho y 0,70 de largo.",
+       "otros":"Limpieza con jabón neutro , centrifugado y secado en la sombra.",
        "precio":"€79"
     }
-  
 
    
 

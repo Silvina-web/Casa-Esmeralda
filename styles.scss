@@ -458,6 +458,7 @@ footer{
 .container-bolsos{
   outline: 2px solid rgb(16, 53, 148);
   width: 80vw;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -465,11 +466,13 @@ footer{
   gap: 2rem;
   margin: 2rem auto;
   .card-bolsos{
+    outline: 5px solid red;
     border:1px solid rgba(215, 102, 16, 0.466);
     padding: 0.01rem;
     border-radius: 5px;
     box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
     width: 15vw;
+    
 
     img{
       width: 14vw;
@@ -480,7 +483,7 @@ footer{
       font-family: 'Quicksand', sans-serif;
       color: $color-principal;
       text-align: center;
-      margin: 2rem 2rem;
+      margin: 1rem 1rem;
      
     }
     
@@ -554,6 +557,7 @@ footer{
     border-radius: 5px;
     box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
     width: 15vw;
+
    img{
       width: 14.9vw;
       border-radius: 5px;
@@ -563,7 +567,7 @@ footer{
       font-family: 'Quicksand', sans-serif;
       color: $color-principal;
       text-align: center;
-      margin: 2rem 2rem;
+      margin: 1rem 2rem;
      
     }
     

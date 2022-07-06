@@ -1,12 +1,36 @@
 [
     {  "id": 1,
-       "img":"../imgs/Delantales.jpg",
+       "img":"../imgs/DelantalMarron.jpg",
        "nombre":"Delantales",
        "descripcion":"Descripcion",
        "medidas":"Medidas",
        "otros":"Cuidados",
        "precio":"€39"
-    }    
+    } ,
+    {  "id": 1,
+      "img":"../imgs/DelantalNegro.jpg",
+      "nombre":"Delantales",
+      "descripcion":"Descripcion",
+      "medidas":"Medidas",
+      "otros":"Cuidados",
+      "precio":"€39"
+   } ,
+   {  "id": 1,
+      "img":"../imgs/DelantalBlanco.jpg",
+      "nombre":"Delantales",
+      "descripcion":"Descripcion",
+      "medidas":"Medidas",
+      "otros":"Cuidados",
+      "precio":"€39"
+   },
+   {  "id": 1,
+      "img":"../imgs/DelantalGRis.jpg",
+      "nombre":"Delantales",
+      "descripcion":"Descripcion",
+      "medidas":"Medidas",
+      "otros":"Cuidados",
+      "precio":"€39"
+   }     
    
 
   

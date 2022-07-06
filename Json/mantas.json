@@ -24,9 +24,9 @@
       "precio":"€79"
     },
     { "id": 4,
-      "img":"../imgs/Manta-4.jpeg",
-      "nombre":"Manta Ana",
-      "descripcion":"Mantas 100% algodón confeccionada a mano en diferentes variantes y colores con terminación al crochet",
+      "img":"../imgs/Manta7.jpg",
+      "nombre":"Mantas rayas desigual",
+      "descripcion":"Mantas 100% algodón con rayas desigual",
       "medidas":"1.20 x 1.80",
       "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
       "precio":"€79"
@@ -48,7 +48,16 @@
        "medidas":"1.20 x 1.80",
        "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
        "precio":"€79"
-     }
+     },
+      {
+      "id": 6,
+      "img":"../imgs/Manta8.jpg",
+      "nombre":"Mantas rayas desigual",
+      "descripcion":"Mantas 100% algodón con rayas desigual  ",
+      "medidas":"1.20 x 1.80",
+      "otros":"Lavar con jabon neutro, centrifugarlo, secado a la sombra.",
+      "precio":"€79"
+    }
   
   
 

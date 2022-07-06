@@ -413,6 +413,7 @@ footer a {
 }
 
 .container-bolsos .card-bolsos {
+  outline: 5px solid red;
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
@@ -429,7 +430,7 @@ footer a {
   font-family: 'Quicksand', sans-serif;
   color: #a83e17da;
   text-align: center;
-  margin: 2rem 2rem;
+  margin: 1rem 1rem;
 }
 
 .container-bolsos .card-bolsos p {
@@ -502,7 +503,7 @@ footer a {
   font-family: 'Quicksand', sans-serif;
   color: #a83e17da;
   text-align: center;
-  margin: 2rem 2rem;
+  margin: 1rem 2rem;
 }
 
 .container-cojines .card-cojines p {
