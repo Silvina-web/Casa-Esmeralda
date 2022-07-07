@@ -173,11 +173,11 @@ padding-top: 2rem;
 }
 
 @media  (max-width: 600px) {
-  width: 80vw;
+  width: 90vw;
   outline: 5px solid rgb(51, 224, 28);
   margin-top: 1rem;
     .secciones{
-      outline: 5px solid brown;
+      outline: 5px solid rgb(235, 16, 16);
       padding-bottom: 10rem;
       flex-direction: column;
       flex-wrap: wrap;
@@ -186,15 +186,15 @@ padding-top: 2rem;
      
       a{
         outline: 5px solid black;
-         width: 70vw;
-         height: 32vh;
+         width: 80vw;
+         height: 39vh;
           margin: auto;
       p{
         font-size: 16px;
       }
 
         img{
-          width: 45vw;
+          width: 55vw;
           
         }
       }
@@ -976,24 +976,18 @@ flex-direction: column;
  .container-ponchos{
   outline: 2px solid rgb(16, 53, 148);
   width: 80vw;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 2rem;
   margin: 2rem auto;
-  .card-ponchos{
+  img{
+    width: 40vw;
     border:1px solid rgba(215, 102, 16, 0.466);
-    padding: 0.01rem;
-    border-radius: 5px;
     box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
-    width: 15vw;
-   img{
-      width: 14.9vw;
-      border-radius: 5px;
-      text-align: center;
+    display: flex;
+    border-radius: 5px;
+     margin-left: auto;
+    margin-right: auto; 
     }
-    h5{
+ .card-ponchos{
+   h5{
       font-family: 'Quicksand', sans-serif;
       color: $color-principal;
       text-align: center;
@@ -1008,42 +1002,25 @@ flex-direction: column;
        font-size: 20px;
        color: black;
        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-       
-      }
-  }
-  @media (max-width: 1980px)and (min-width: 1499px){
-    .card-ponchos{
-      width: 15vw;
-      height: 80vh;
-      img{
-        width: 15vw;
-      }
+        }
     }
-  
-  }
-    
-  
-  @media  (max-width: 1500px){
-    .card-ponchos{
-      width: 30vw;
-  
-      img{
-        width: 30vw;
-      }
-    }
-  }
-  
-  @media screen and (max-width: 750px){
-    .card-ponchos{
-      width: 70vw;
-  
+    @media screen and (max-width: 800px){
       img{
         width: 70vw;
       }
     }
-  }
-  
 }
+    
+    
+    
+    
+  
+    
+  
+  
+  
+  
+
 
 /* personalizados......................PERSONALIZADOS */
 .textoPersonalizados{

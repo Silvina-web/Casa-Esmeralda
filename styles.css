@@ -173,12 +173,12 @@ header h3 {
 
 @media (max-width: 600px) {
   .main-container {
-    width: 80vw;
+    width: 90vw;
     outline: 5px solid #33e01c;
     margin-top: 1rem;
   }
   .main-container .secciones {
-    outline: 5px solid brown;
+    outline: 5px solid #eb1010;
     padding-bottom: 10rem;
     flex-direction: column;
     flex-wrap: wrap;
@@ -187,15 +187,15 @@ header h3 {
   }
   .main-container .secciones a {
     outline: 5px solid black;
-    width: 70vw;
-    height: 32vh;
+    width: 80vw;
+    height: 39vh;
     margin: auto;
   }
   .main-container .secciones a p {
     font-size: 16px;
   }
   .main-container .secciones a img {
-    width: 45vw;
+    width: 55vw;
   }
 }
 
@@ -947,26 +947,17 @@ footer a {
 .container-ponchos {
   outline: 2px solid #103594;
   width: 80vw;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 2rem;
   margin: 2rem auto;
 }
 
-.container-ponchos .card-ponchos {
+.container-ponchos img {
+  width: 40vw;
   border: 1px solid rgba(215, 102, 16, 0.466);
-  padding: 0.01rem;
-  border-radius: 5px;
   box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
-  width: 15vw;
-}
-
-.container-ponchos .card-ponchos img {
-  width: 14.9vw;
+  display: flex;
   border-radius: 5px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-ponchos .card-ponchos h5 {
@@ -988,30 +979,8 @@ footer a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (max-width: 1980px) and (min-width: 1499px) {
-  .container-ponchos .card-ponchos {
-    width: 15vw;
-    height: 80vh;
-  }
-  .container-ponchos .card-ponchos img {
-    width: 15vw;
-  }
-}
-
-@media (max-width: 1500px) {
-  .container-ponchos .card-ponchos {
-    width: 30vw;
-  }
-  .container-ponchos .card-ponchos img {
-    width: 30vw;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .container-ponchos .card-ponchos {
-    width: 70vw;
-  }
-  .container-ponchos .card-ponchos img {
+@media screen and (max-width: 800px) {
+  .container-ponchos img {
     width: 70vw;
   }
 }

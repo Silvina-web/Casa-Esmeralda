@@ -25,7 +25,7 @@ const pintarPonchos= data =>{
         const divPonchos = document.createElement('div')
         divPonchos.classList.add('card-ponchos')
         divPonchos.innerHTML=`
-        <img src=${element.img} alt="foto de ponchos">
+      
         <h5>${element.nombre}</h5>
         <p>${element.descripcion}</p>
         <p> Medidas: ${element.medidas}</p>
