@@ -103,8 +103,9 @@ padding-top: 2rem;
 
 @media(max-width: 1199px){
   width: 90vw;
-  height: 50vh;
+  height: 55vh;
   outline: 5px solid rgb(223, 24, 130);
+  margin-top: .5rem;
   .secciones{
     flex-direction: row;
     flex-wrap: wrap;
@@ -114,7 +115,7 @@ padding-top: 2rem;
     a{
       outline: 5px solid rgb(239, 204, 5);
        width: 20vw;
-       height: 25vh; 
+       height: 27vh; 
        text-align: center;
        font-family: 'Quicksand', sans-serif;
        color: whitesmoke;
@@ -193,7 +194,7 @@ padding-top: 2rem;
       }
 
         img{
-          width: 32vw;
+          width: 45vw;
           
         }
       }
@@ -206,7 +207,7 @@ padding-top: 2rem;
 
 footer{
   width: 80vw;
-  height: 7vh;
+  height: 10vh;
   background-color: #a83e17da;
   margin: auto;
   border-radius: 5px;
@@ -235,6 +236,8 @@ footer{
 /* vecinas */
 .vecinas{
   font-size: 13px;
+  position: fixed;
+  bottom: 0;
   a{
     text-decoration: none; 
     color: rgb(50, 48, 48);
@@ -309,15 +312,13 @@ footer{
 }
 
 
-.navbar-toggler{
-  outline: 2px solid red;
-}
+
 
 
  /* ALFOMBRAS ------------------ALFOMBRAS--------ALFOMBRAS-------------ALFOMBRAS*/
 .container-alfombras{
   outline: 2px solid rgb(16, 53, 148);
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -352,6 +353,8 @@ footer{
        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
   }
+
+  /* media q alfmbras */
  @media (max-width: 1980px)and (min-width: 1599px){
     .card-alfombras{
       width: 20vw;
@@ -391,8 +394,7 @@ footer{
       }
     }
   }
-
-  @media screen and (max-width: 420px){
+@media screen and (max-width: 420px){
     
       outline: 5px solid rgb(25, 31, 205);
       width: 100vw;
@@ -419,7 +421,7 @@ footer{
 
 .container-cards{
   outline: 2px solid rgb(16, 53, 148);
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -464,37 +466,65 @@ footer{
  
 
 }
-@media (max-width: 1980px)and (min-width: 1499px){
+/* media q bandoleras */
+@media (max-width: 1980px)and (min-width: 1599px){
   .card-bandoleras{
-    width: 15vw;
-    height: 80vh;
-    img{
-      width: 15vw;
+    width: 20vw;
+     img{
+      width: 20vw;
     }
   }
-
 }
-  
-
-@media  (max-width: 1500px){
+@media  (max-width: 1600px)and (min-width: 1200px){
+  .card-bandoleras{
+    outline: 5px solid yellow;
+    width: 25vw;
+  img{
+      width: 25vw;
+    }
+  }
+}
+@media screen and (max-width: 1199px){
   .card-bandoleras{
     width: 30vw;
-
     img{
       width: 30vw;
     }
   }
 }
-
-@media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
+display: flex;
+flex-direction: column;
   .card-bandoleras{
+    outline: 5px solid rgb(10, 10, 10);
+  margin: auto;
     width: 70vw;
+    margin-top: 2rem;
 
     img{
       width: 70vw;
     }
   }
 }
+@media screen and (max-width: 420px){
+  
+    outline: 5px solid rgb(25, 31, 205);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  .card-bandoleras{
+    outline: 5px solid rgb(218, 246, 1);
+    width: 85vw;
+    margin: auto;
+    margin-top: 2rem;
+  img{
+      width: 85vw;
+    }
+  }
+
+}
+  
+
 
 }
   
@@ -505,7 +535,7 @@ footer{
 
 .container-bolsos{
   outline: 2px solid rgb(16, 53, 148);
-  width: 80vw;
+  width: 90vw;
   
   display: flex;
   flex-direction: row;
@@ -550,41 +580,66 @@ footer{
        
       }
   }
+  /* media q bolsos */
 
-  @media (max-width: 1980px)and (min-width: 1499px){
+  @media (max-width: 1980px)and (min-width: 1599px){
     .card-bolsos{
-      width: 15vw;
-      height: 80vh;
-      img{
-        width: 15vw;
-        
+      width: 20vw;
+       img{
+        width: 20vw;
       }
     }
-  
   }
-    
-  
-  @media  (max-width: 1500px){
+ @media  (max-width: 1600px)and (min-width: 1200px){
+    .card-bolsos{
+      outline: 5px solid yellow;
+      width: 25vw;
+    img{
+        width: 25vw;
+      }
+    }
+  }
+  @media screen and (max-width: 1199px){
     .card-bolsos{
       width: 30vw;
-  
       img{
         width: 30vw;
       }
     }
   }
-  
-  @media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
+  display: flex;
+  flex-direction: column;
     .card-bolsos{
+      outline: 5px solid rgb(10, 10, 10);
+    margin: auto;
       width: 70vw;
-      
+      margin-top: 2rem;
   
       img{
         width: 70vw;
       }
     }
   }
+@media screen and (max-width: 420px){
+    
+      outline: 5px solid rgb(25, 31, 205);
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+    .card-bolsos{
+      outline: 5px solid rgb(218, 246, 1);
+      width: 85vw;
+      margin: auto;
+      margin-top: 2rem;
+    img{
+        width: 85vw;
+      }
+    }
   
+}
+  
+ 
   }
     
   
@@ -592,7 +647,7 @@ footer{
 
 .container-cojines{
   outline: 2px solid rgb(16, 53, 148);
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -634,47 +689,77 @@ footer{
        
       }
   }
-  @media (max-width: 1980px)and (min-width: 1499px){
+  /* media q cojines */
+  @media (max-width: 1980px)and (min-width: 1599px){
     .card-cojines{
-      width: 15vw;
-      height: 80vh;
-      img{
-        width: 15vw;
+      width: 20vw;
+       img{
+        width: 20vw;
       }
     }
-  
   }
-    
+ @media  (max-width: 1600px)and (min-width: 1200px){
+    .card-cojines {
+      outline: 5px solid yellow;
+      width: 25vw;
+    img{
+        width: 25vw;
+      }
+    }
+  }
   
-  @media  (max-width: 1500px){
+  @media screen and (max-width: 1199px){
     .card-cojines{
       width: 30vw;
-  
       img{
         width: 30vw;
       }
     }
   }
-  
-  @media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
+  display: flex;
+  flex-direction: column;
     .card-cojines{
+      outline: 5px solid rgb(10, 10, 10);
+    margin: auto;
       width: 70vw;
+      margin-top: 2rem;
   
       img{
         width: 70vw;
       }
     }
   }
+@media screen and (max-width: 420px){
+    
+      outline: 5px solid rgb(25, 31, 205);
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+    .card-cojines{
+      outline: 5px solid rgb(218, 246, 1);
+      width: 85vw;
+      margin: auto;
+      margin-top: 2rem;
+    img{
+        width: 85vw;
+      }
+    }
   
-
 }
+  
+ 
+  }
+
+
+  
 
 
 /* MANTAS.....................MANTAS................MANTAS................ */
 
 .container-mantas{
   outline: 2px solid rgb(16, 53, 148);
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -715,38 +800,69 @@ footer{
        
       }
   }
-  @media (max-width: 1980px)and (min-width: 1499px){
-    .card-mantas{
-      width: 15vw;
-      height: 80vh;
-      img{
-        width: 15vw;
-      }
-    }
   
-  }
     
   
-  @media  (max-width: 1500px){
+  
+  
+  /* media q mantas */
+
+   @media (max-width: 1980px)and (min-width: 1599px){
+    .card-mantas{
+      width: 20vw;
+       img{
+        width: 20vw;
+      }
+    }
+  }
+ @media  (max-width: 1600px)and (min-width: 1200px){
+    .card-mantas {
+      outline: 5px solid yellow;
+      width: 25vw;
+    img{
+        width: 25vw;
+      }
+    }
+  }
+  @media screen and (max-width: 1199px){
     .card-mantas{
       width: 30vw;
-  
       img{
         width: 30vw;
       }
     }
   }
-  
-  @media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
+  display: flex;
+  flex-direction: column;
     .card-mantas{
+      outline: 5px solid rgb(10, 10, 10);
+    margin: auto;
       width: 70vw;
+      margin-top: 2rem;
   
       img{
         width: 70vw;
       }
     }
   }
+@media screen and (max-width: 420px){
+    
+      outline: 5px solid rgb(25, 31, 205);
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+    .card-mantas{
+      outline: 5px solid rgb(218, 246, 1);
+      width: 85vw;
+      margin: auto;
+      margin-top: 2rem;
+    img{
+        width: 85vw;
+      }
+    }
   
+}
 
 }
 
@@ -755,7 +871,7 @@ footer{
 
 .container-delantales{
   outline: 2px solid rgb(16, 53, 148);
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -791,37 +907,67 @@ footer{
        
       }
   }
-  @media (max-width: 1980px)and (min-width: 1499px){
+ 
+    /* Media q delantales */
+  @media (max-width: 1980px)and (min-width: 1599px){
     .card-delantales{
-      width: 15vw;
-      height: 80vh;
-      img{
-        width: 15vw;
+      width: 20vw;
+       img{
+        width: 20vw;
       }
     }
-  
   }
-    
-  
-  @media  (max-width: 1500px){
+ @media  (max-width: 1600px)and (min-width: 1200px){
+    .card-delantales{
+      outline: 5px solid yellow;
+      width: 25vw;
+    img{
+        width: 25vw;
+      }
+    }
+  }
+  @media screen and (max-width: 1199px){
     .card-delantales{
       width: 30vw;
-  
       img{
         width: 30vw;
       }
     }
   }
-  
-  @media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
+  display: flex;
+  flex-direction: column;
     .card-delantales{
+      outline: 5px solid rgb(10, 10, 10);
+    margin: auto;
       width: 70vw;
+      margin-top: 2rem;
   
       img{
         width: 70vw;
       }
     }
   }
+@media screen and (max-width: 420px){
+    
+      outline: 5px solid rgb(25, 31, 205);
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+    .card-delantales{
+      outline: 5px solid rgb(218, 246, 1);
+      width: 85vw;
+      margin: auto;
+      margin-top: 2rem;
+    img{
+        width: 85vw;
+      }
+    }
+  
+}
+  
+  
+  
   
 }
 

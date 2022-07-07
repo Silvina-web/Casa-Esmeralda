@@ -107,8 +107,9 @@ header h3 {
 @media (max-width: 1199px) {
   .main-container {
     width: 90vw;
-    height: 50vh;
+    height: 55vh;
     outline: 5px solid #df1882;
+    margin-top: .5rem;
   }
   .main-container .secciones {
     flex-direction: row;
@@ -119,7 +120,7 @@ header h3 {
   .main-container .secciones a {
     outline: 5px solid #efcc05;
     width: 20vw;
-    height: 25vh;
+    height: 27vh;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     color: whitesmoke;
@@ -194,14 +195,14 @@ header h3 {
     font-size: 16px;
   }
   .main-container .secciones a img {
-    width: 32vw;
+    width: 45vw;
   }
 }
 
 /* fin main container */
 footer {
   width: 80vw;
-  height: 7vh;
+  height: 10vh;
   background-color: #a83e17da;
   margin: auto;
   border-radius: 5px;
@@ -228,6 +229,8 @@ footer a {
 /* vecinas */
 .vecinas {
   font-size: 13px;
+  position: fixed;
+  bottom: 0;
 }
 
 .vecinas a {
@@ -294,20 +297,17 @@ footer a {
   padding: 2rem;
 }
 
-.navbar-toggler {
-  outline: 2px solid red;
-}
-
 /* ALFOMBRAS ------------------ALFOMBRAS--------ALFOMBRAS-------------ALFOMBRAS*/
 .container-alfombras {
   outline: 2px solid #103594;
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   margin: 2rem auto;
+  /* media q alfmbras */
 }
 
 .container-alfombras .card-alfombras {
@@ -408,13 +408,14 @@ footer a {
 /* bandoleras--------------------bandoleras ------------------------- */
 .container-cards {
   outline: 2px solid #103594;
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   margin: 2rem auto;
+  /* media q bandoleras */
 }
 
 .container-cards .card-bandoleras {
@@ -448,17 +449,26 @@ footer a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (max-width: 1980px) and (min-width: 1499px) {
+@media (max-width: 1980px) and (min-width: 1599px) {
   .container-cards .card-bandoleras {
-    width: 15vw;
-    height: 80vh;
+    width: 20vw;
   }
   .container-cards .card-bandoleras img {
-    width: 15vw;
+    width: 20vw;
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1600px) and (min-width: 1200px) {
+  .container-cards .card-bandoleras {
+    outline: 5px solid yellow;
+    width: 25vw;
+  }
+  .container-cards .card-bandoleras img {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   .container-cards .card-bandoleras {
     width: 30vw;
   }
@@ -467,25 +477,51 @@ footer a {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+  }
   .container-cards .card-bandoleras {
+    outline: 5px solid #0a0a0a;
+    margin: auto;
     width: 70vw;
+    margin-top: 2rem;
   }
   .container-cards .card-bandoleras img {
     width: 70vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container-cards {
+    outline: 5px solid #191fcd;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-cards .card-bandoleras {
+    outline: 5px solid #daf601;
+    width: 85vw;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .container-cards .card-bandoleras img {
+    width: 85vw;
   }
 }
 
 /* Bolsos------------Bolsos----------------Bolsos------------ */
 .container-bolsos {
   outline: 2px solid #103594;
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   margin: 2rem auto;
+  /* media q bolsos */
 }
 
 .container-bolsos .card-bolsos {
@@ -521,17 +557,26 @@ footer a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (max-width: 1980px) and (min-width: 1499px) {
+@media (max-width: 1980px) and (min-width: 1599px) {
   .container-bolsos .card-bolsos {
-    width: 15vw;
-    height: 80vh;
+    width: 20vw;
   }
   .container-bolsos .card-bolsos img {
-    width: 15vw;
+    width: 20vw;
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1600px) and (min-width: 1200px) {
+  .container-bolsos .card-bolsos {
+    outline: 5px solid yellow;
+    width: 25vw;
+  }
+  .container-bolsos .card-bolsos img {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   .container-bolsos .card-bolsos {
     width: 30vw;
   }
@@ -540,25 +585,51 @@ footer a {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+  .container-bolsos {
+    display: flex;
+    flex-direction: column;
+  }
   .container-bolsos .card-bolsos {
+    outline: 5px solid #0a0a0a;
+    margin: auto;
     width: 70vw;
+    margin-top: 2rem;
   }
   .container-bolsos .card-bolsos img {
     width: 70vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container-bolsos {
+    outline: 5px solid #191fcd;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-bolsos .card-bolsos {
+    outline: 5px solid #daf601;
+    width: 85vw;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .container-bolsos .card-bolsos img {
+    width: 85vw;
   }
 }
 
 /*  COJINES---------------------COJINES----------------------COJINES----------------------- */
 .container-cojines {
   outline: 2px solid #103594;
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   margin: 2rem auto;
+  /* media q cojines */
 }
 
 .container-cojines .card-cojines {
@@ -594,17 +665,26 @@ footer a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (max-width: 1980px) and (min-width: 1499px) {
+@media (max-width: 1980px) and (min-width: 1599px) {
   .container-cojines .card-cojines {
-    width: 15vw;
-    height: 80vh;
+    width: 20vw;
   }
   .container-cojines .card-cojines img {
-    width: 15vw;
+    width: 20vw;
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1600px) and (min-width: 1200px) {
+  .container-cojines .card-cojines {
+    outline: 5px solid yellow;
+    width: 25vw;
+  }
+  .container-cojines .card-cojines img {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   .container-cojines .card-cojines {
     width: 30vw;
   }
@@ -613,25 +693,51 @@ footer a {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+  .container-cojines {
+    display: flex;
+    flex-direction: column;
+  }
   .container-cojines .card-cojines {
+    outline: 5px solid #0a0a0a;
+    margin: auto;
     width: 70vw;
+    margin-top: 2rem;
   }
   .container-cojines .card-cojines img {
     width: 70vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container-cojines {
+    outline: 5px solid #191fcd;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-cojines .card-cojines {
+    outline: 5px solid #daf601;
+    width: 85vw;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .container-cojines .card-cojines img {
+    width: 85vw;
   }
 }
 
 /* MANTAS.....................MANTAS................MANTAS................ */
 .container-mantas {
   outline: 2px solid #103594;
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   margin: 2rem auto;
+  /* media q mantas */
 }
 
 .container-mantas .card-mantas {
@@ -667,17 +773,26 @@ footer a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (max-width: 1980px) and (min-width: 1499px) {
+@media (max-width: 1980px) and (min-width: 1599px) {
   .container-mantas .card-mantas {
-    width: 15vw;
-    height: 80vh;
+    width: 20vw;
   }
   .container-mantas .card-mantas img {
-    width: 15vw;
+    width: 20vw;
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1600px) and (min-width: 1200px) {
+  .container-mantas .card-mantas {
+    outline: 5px solid yellow;
+    width: 25vw;
+  }
+  .container-mantas .card-mantas img {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   .container-mantas .card-mantas {
     width: 30vw;
   }
@@ -686,25 +801,51 @@ footer a {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+  .container-mantas {
+    display: flex;
+    flex-direction: column;
+  }
   .container-mantas .card-mantas {
+    outline: 5px solid #0a0a0a;
+    margin: auto;
     width: 70vw;
+    margin-top: 2rem;
   }
   .container-mantas .card-mantas img {
     width: 70vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container-mantas {
+    outline: 5px solid #191fcd;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-mantas .card-mantas {
+    outline: 5px solid #daf601;
+    width: 85vw;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .container-mantas .card-mantas img {
+    width: 85vw;
   }
 }
 
 /*  DELANTALES ....................DELANTALES.................. */
 .container-delantales {
   outline: 2px solid #103594;
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   margin: 2rem auto;
+  /* Media q delantales */
 }
 
 .container-delantales .card-delantales {
@@ -740,17 +881,26 @@ footer a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (max-width: 1980px) and (min-width: 1499px) {
+@media (max-width: 1980px) and (min-width: 1599px) {
   .container-delantales .card-delantales {
-    width: 15vw;
-    height: 80vh;
+    width: 20vw;
   }
   .container-delantales .card-delantales img {
-    width: 15vw;
+    width: 20vw;
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1600px) and (min-width: 1200px) {
+  .container-delantales .card-delantales {
+    outline: 5px solid yellow;
+    width: 25vw;
+  }
+  .container-delantales .card-delantales img {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   .container-delantales .card-delantales {
     width: 30vw;
   }
@@ -759,12 +909,37 @@ footer a {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+  .container-delantales {
+    display: flex;
+    flex-direction: column;
+  }
   .container-delantales .card-delantales {
+    outline: 5px solid #0a0a0a;
+    margin: auto;
     width: 70vw;
+    margin-top: 2rem;
   }
   .container-delantales .card-delantales img {
     width: 70vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container-delantales {
+    outline: 5px solid #191fcd;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-delantales .card-delantales {
+    outline: 5px solid #daf601;
+    width: 85vw;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .container-delantales .card-delantales img {
+    width: 85vw;
   }
 }
 
