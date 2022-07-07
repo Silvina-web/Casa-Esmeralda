@@ -269,9 +269,9 @@ footer a {
 
 .navbar .navbar-brand {
   outline: 2px solid green;
-  color: aliceblue;
+  color: rgba(42, 44, 41, 0.96);
   /* HOME */
-  margin: 1rem;
+  font-size: 10px;
 }
 
 .navbar .navbar-nav {
