@@ -107,7 +107,7 @@ header h3 {
 @media (max-width: 1199px) {
   .main-container {
     width: 90vw;
-    height: 55vh;
+    height: 65vh;
     outline: 5px solid #df1882;
     margin-top: .5rem;
   }
@@ -120,7 +120,7 @@ header h3 {
   .main-container .secciones a {
     outline: 5px solid #efcc05;
     width: 20vw;
-    height: 27vh;
+    height: 30vh;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     color: whitesmoke;
@@ -132,7 +132,7 @@ header h3 {
     font-size: 15px;
   }
   .main-container .secciones a img {
-    width: 10vw;
+    width: 9vw;
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.305);
   }
@@ -217,7 +217,7 @@ footer a {
   align-self: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   footer {
     width: 100vw;
     position: fixed;
