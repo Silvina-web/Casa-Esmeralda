@@ -356,6 +356,7 @@ footer a {
   .container-alfombras .card-alfombras {
     outline: 5px solid yellow;
     width: 25vw;
+    margin: 1rem;
   }
   .container-alfombras .card-alfombras img {
     width: 25vw;
@@ -364,10 +365,11 @@ footer a {
 
 @media screen and (max-width: 1199px) {
   .container-alfombras .card-alfombras {
-    width: 30vw;
+    width: 32vw;
+    margin: 1rem;
   }
   .container-alfombras .card-alfombras img {
-    width: 30vw;
+    width: 32vw;
   }
 }
 
@@ -462,6 +464,7 @@ footer a {
   .container-cards .card-bandoleras {
     outline: 5px solid yellow;
     width: 25vw;
+    margin: 1rem;
   }
   .container-cards .card-bandoleras img {
     width: 25vw;
@@ -470,10 +473,11 @@ footer a {
 
 @media screen and (max-width: 1199px) {
   .container-cards .card-bandoleras {
-    width: 30vw;
+    width: 32vw;
+    margin: 1rem;
   }
   .container-cards .card-bandoleras img {
-    width: 30vw;
+    width: 32vw;
   }
 }
 
@@ -570,6 +574,7 @@ footer a {
   .container-bolsos .card-bolsos {
     outline: 5px solid yellow;
     width: 25vw;
+    margin: 1rem;
   }
   .container-bolsos .card-bolsos img {
     width: 25vw;
@@ -578,10 +583,11 @@ footer a {
 
 @media screen and (max-width: 1199px) {
   .container-bolsos .card-bolsos {
-    width: 30vw;
+    width: 32vw;
+    margin: 1rem;
   }
   .container-bolsos .card-bolsos img {
-    width: 30vw;
+    width: 32vw;
   }
 }
 
@@ -678,6 +684,7 @@ footer a {
   .container-cojines .card-cojines {
     outline: 5px solid yellow;
     width: 25vw;
+    margin: 1rem;
   }
   .container-cojines .card-cojines img {
     width: 25vw;
@@ -686,10 +693,12 @@ footer a {
 
 @media screen and (max-width: 1199px) {
   .container-cojines .card-cojines {
-    width: 30vw;
+    outline: 2px solid #efa810;
+    width: 32vw;
+    margin: 1rem;
   }
   .container-cojines .card-cojines img {
-    width: 30vw;
+    width: 32vw;
   }
 }
 
@@ -786,6 +795,7 @@ footer a {
   .container-mantas .card-mantas {
     outline: 5px solid yellow;
     width: 25vw;
+    margin: 1rem;
   }
   .container-mantas .card-mantas img {
     width: 25vw;
@@ -794,10 +804,11 @@ footer a {
 
 @media screen and (max-width: 1199px) {
   .container-mantas .card-mantas {
-    width: 30vw;
+    width: 32vw;
+    margin: 1rem;
   }
   .container-mantas .card-mantas img {
-    width: 30vw;
+    width: 32vw;
   }
 }
 
@@ -894,6 +905,7 @@ footer a {
   .container-delantales .card-delantales {
     outline: 5px solid yellow;
     width: 25vw;
+    margin: 1rem;
   }
   .container-delantales .card-delantales img {
     width: 25vw;
