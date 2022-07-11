@@ -199,6 +199,42 @@ header h3 {
   }
 }
 
+@media (max-width: 1024px) and (orientation: landscape) {
+  .main-container {
+    /* width: 90vw; */
+    outline: 5px solid #3b54c4;
+    margin-top: 10rem;
+  }
+  .main-container .secciones {
+    outline: 5px solid #0b0707;
+    padding-bottom: 10rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*  gap: 5em; */
+  }
+  .main-container .secciones a {
+    outline: 5px solid #34e408;
+    width: 80vw;
+    height: 120vh;
+    margin: auto;
+  }
+  .main-container .secciones a p {
+    font-size: 16px;
+  }
+  .main-container .secciones a img {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 750px) and (orientation: landscape) {
+  .main-container .secciones a {
+    outline: 3px solid pink;
+    width: 80vw;
+    height: 170vh;
+  }
+}
+
 /* fin main container */
 footer {
   width: 80vw;
@@ -914,10 +950,11 @@ footer a {
 
 @media screen and (max-width: 1199px) {
   .container-delantales .card-delantales {
-    width: 30vw;
+    width: 32vw;
+    margin: 1rem;
   }
   .container-delantales .card-delantales img {
-    width: 30vw;
+    width: 32vw;
   }
 }
 

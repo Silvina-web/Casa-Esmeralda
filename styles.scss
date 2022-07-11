@@ -203,6 +203,47 @@ padding-top: 2rem;
   
 }
 
+
+@media (max-width: 1024px) and (orientation: landscape){
+  /* width: 90vw; */
+  outline: 5px solid rgb(59, 84, 196);
+  margin-top: 10rem;
+  .secciones{
+    outline: 5px solid rgb(11, 7, 7);
+    padding-bottom: 10rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   /*  gap: 5em; */
+   
+    a{
+      outline: 5px solid rgb(52, 228, 8);
+       width: 80vw;
+       height: 120vh;
+        margin: auto;
+      p{
+        font-size: 16px;
+      }
+
+        img{
+          width: 60vw;
+          
+        }
+      }
+    }
+  
+}
+  
+@media (max-width: 750px) and (orientation: landscape) {
+  .secciones{
+  a{
+    outline: 3px solid pink;
+    width: 80vw;
+    height: 170vh;
+  }
+}  
+}
+
 }
 /* fin main container */
 
@@ -943,9 +984,10 @@ flex-direction: column;
   }
   @media screen and (max-width: 1199px){
     .card-delantales{
-      width: 30vw;
+      width: 32vw;
+      margin: 1rem;
       img{
-        width: 30vw;
+        width: 32vw;
       }
     }
   }
