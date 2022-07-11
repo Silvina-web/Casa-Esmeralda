@@ -115,7 +115,7 @@ padding-top: 2rem;
     a{
       outline: 5px solid rgb(239, 204, 5);
        width: 20vw;
-       height: 30vh; 
+       height: 25vh; 
        text-align: center;
        font-family: 'Quicksand', sans-serif;
        color: whitesmoke;
@@ -126,7 +126,7 @@ padding-top: 2rem;
        font-size: 15px;
      }
     img{
-       width: 9vw;
+       width: 14vw;
        border-radius: 5px;
        box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.305); 
        } 
@@ -148,7 +148,7 @@ padding-top: 2rem;
     a{
       outline: 5px solid green;
        width: 35vw;
-       height: 20vh; 
+       height: 22vh; 
        text-align: center;
        font-family: 'Quicksand', sans-serif;
        color: whitesmoke;
@@ -175,6 +175,7 @@ padding-top: 2rem;
 @media  (max-width: 600px) {
   width: 90vw;
   outline: 5px solid rgb(51, 224, 28);
+
   margin-top: 1rem;
     .secciones{
       outline: 5px solid rgb(235, 16, 16);
@@ -187,7 +188,7 @@ padding-top: 2rem;
       a{
         outline: 5px solid black;
          width: 80vw;
-         height: 39vh;
+         height: 50vh;
           margin: auto;
       p{
         font-size: 16px;
