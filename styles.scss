@@ -37,7 +37,7 @@ padding-top: 2rem;
 
 
 .main-container{
-  outline: 5px solid yellow;
+  
   width: 85vw;
   margin: auto;
   margin-top: -2rem;
@@ -48,7 +48,7 @@ padding-top: 2rem;
           justify-content: space-between;
           gap: 5em;
      a{
-      outline: 5px solid green;
+     
        width: 15vw;
       height: 25vh; 
        text-align: center;
@@ -69,7 +69,7 @@ padding-top: 2rem;
 /* Media query   main container*/
 
 @media (max-width: 1450px){
-  outline: 5px solid rgb(14, 228, 46);
+  
   width: 85vw;
   margin: auto;
   margin-top: -2rem;
@@ -80,7 +80,7 @@ padding-top: 2rem;
           justify-content: space-between;
           gap: 5em;
      a{
-      outline: 5px solid rgb(44, 24, 179);
+     
        width: 20vw;
       height: 32vh; 
        text-align: center;
@@ -104,7 +104,7 @@ padding-top: 2rem;
 @media(max-width: 1199px){
   width: 90vw;
   height: 65vh;
-  outline: 5px solid rgb(223, 24, 130);
+ 
   margin-top: .5rem;
   .secciones{
     flex-direction: row;
@@ -113,7 +113,7 @@ padding-top: 2rem;
     gap: 1em;
 
     a{
-      outline: 5px solid rgb(239, 204, 5);
+     
        width: 20vw;
        height: 25vh; 
        text-align: center;
@@ -137,7 +137,7 @@ padding-top: 2rem;
 @media(max-width: 820px){
   width: 80vw;
   height: 90vh;
-  outline: 5px solid rgb(139, 220, 26);
+  
  
   .secciones{
     flex-direction: row;
@@ -146,7 +146,7 @@ padding-top: 2rem;
     gap: 1em;
 
     a{
-      outline: 5px solid green;
+     
        width: 35vw;
        height: 22vh; 
        text-align: center;
@@ -174,11 +174,11 @@ padding-top: 2rem;
 
 @media  (max-width: 600px) {
   width: 90vw;
-  outline: 5px solid rgb(51, 224, 28);
+ 
 
   margin-top: 1rem;
     .secciones{
-      outline: 5px solid rgb(235, 16, 16);
+      
       padding-bottom: 10rem;
       flex-direction: column;
       flex-wrap: wrap;
@@ -186,7 +186,7 @@ padding-top: 2rem;
       gap: 5em;
      
       a{
-        outline: 5px solid black;
+        
          width: 80vw;
          height: 50vh;
           margin: auto;
@@ -196,7 +196,8 @@ padding-top: 2rem;
 
         img{
           width: 55vw;
-          
+          border-radius: 5px;
+          box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.305);          
         }
       }
     }
@@ -206,10 +207,10 @@ padding-top: 2rem;
 
 @media (max-width: 1024px) and (orientation: landscape){
   /* width: 90vw; */
-  outline: 5px solid rgb(59, 84, 196);
+  
   margin-top: 10rem;
   .secciones{
-    outline: 5px solid rgb(11, 7, 7);
+  
     padding-bottom: 10rem;
     flex-direction: column;
     flex-wrap: wrap;
@@ -217,7 +218,7 @@ padding-top: 2rem;
    /*  gap: 5em; */
    
     a{
-      outline: 5px solid rgb(52, 228, 8);
+      
        width: 80vw;
        height: 120vh;
         margin: auto;
@@ -227,6 +228,8 @@ padding-top: 2rem;
 
         img{
           width: 60vw;
+          border-radius: 5px;
+          box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.305);
           
         }
       }
@@ -237,7 +240,8 @@ padding-top: 2rem;
 @media (max-width: 750px) and (orientation: landscape) {
   .secciones{
   a{
-    outline: 3px solid pink;
+ 
+    
     width: 80vw;
     height: 170vh;
   }
@@ -304,7 +308,7 @@ footer{
    } */
    .container-head{
      width: 20%;
-    outline: 2px solid rgb(16, 53, 148);
+    
    }
   
     }
@@ -316,11 +320,11 @@ footer{
 
 /* Barra de navegacion principal */
 .navbar{
-  outline: 2px solid blue;
+ 
   .navbar-brand{
-    outline: 2px solid green;
+    
     color:rgba(42, 44, 41, 0.96);  /* HOME */
-    font-size: 10px;
+    font-size: 12px;
     
     }
 .navbar-nav {
@@ -360,7 +364,6 @@ footer{
 
  /* ALFOMBRAS ------------------ALFOMBRAS--------ALFOMBRAS-------------ALFOMBRAS*/
 .container-alfombras{
-  outline: 2px solid rgb(16, 53, 148);
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -372,10 +375,12 @@ footer{
     border:1px solid rgba(215, 102, 16, 0.466);
     padding: 0.01rem;
     border-radius: 5px;
-    box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
-    width: 15vw;
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
+    width:15vw;
+    
    img{
-      width: 14.9vw;
+      padding: 0.4rem;
+      width:14vw;
       border-radius: 5px;
       text-align: center;
     }
@@ -408,7 +413,6 @@ footer{
   }
  @media  (max-width: 1600px)and (min-width: 1200px){
     .card-alfombras{
-      outline: 5px solid yellow;
       width: 25vw;
       margin: 1rem;
     img{
@@ -420,8 +424,7 @@ footer{
     .card-alfombras{
       width: 32vw;
       margin: 1rem;
-    
-      img{
+     img{
         width: 32vw;
       }
     }
@@ -430,24 +433,19 @@ footer{
   display: flex;
   flex-direction: column;
     .card-alfombras{
-      outline: 5px solid rgb(10, 10, 10);
-    margin: auto;
+      margin: auto;
       width: 70vw;
       margin-top: 2rem;
-  
-      img{
+  img{
         width: 70vw;
       }
     }
   }
 @media screen and (max-width: 420px){
-    
-      outline: 5px solid rgb(25, 31, 205);
-      width: 100vw;
+     width: 100vw;
       display: flex;
       flex-direction: column;
     .card-alfombras{
-      outline: 5px solid rgb(218, 246, 1);
       width: 85vw;
       margin: auto;
       margin-top: 2rem;
@@ -466,7 +464,7 @@ footer{
 
 
 .container-cards{
-  outline: 2px solid rgb(16, 53, 148);
+ 
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -479,13 +477,14 @@ footer{
     border:1px solid rgba(215, 102, 16, 0.466);
     padding: 0.01rem;
     border-radius: 5px;
-    box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
     width: 15vw;
-  
+   img{
+    width: 15vw;
+    border-radius: 5px;
+    padding: 0.4rem;
     
-  
-  img{
-    width: 15vw;
+    
   }
   h5{
     font-family: 'Quicksand', sans-serif;
@@ -523,7 +522,7 @@ footer{
 }
 @media  (max-width: 1600px)and (min-width: 1200px){
   .card-bandoleras{
-    outline: 5px solid yellow;
+   
     width: 25vw;
     margin: 1rem;
   img{
@@ -544,7 +543,7 @@ footer{
 display: flex;
 flex-direction: column;
   .card-bandoleras{
-    outline: 5px solid rgb(10, 10, 10);
+   
     margin: auto;
     width: 70vw;
     margin-top: 2rem;
@@ -555,18 +554,16 @@ flex-direction: column;
   }
 }
 @media screen and (max-width: 420px){
-  
-    outline: 5px solid rgb(25, 31, 205);
     width: 100vw;
     display: flex;
     flex-direction: column;
   .card-bandoleras{
-    outline: 5px solid rgb(218, 246, 1);
     width: 85vw;
     margin: auto;
     margin-top: 2rem;
   img{
-      width: 85vw;
+      width: 84.5vw;
+      
     }
   }
 
@@ -582,26 +579,22 @@ flex-direction: column;
 /* Bolsos------------Bolsos----------------Bolsos------------ */
 
 .container-bolsos{
-  outline: 2px solid rgb(16, 53, 148);
   width: 90vw;
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   margin: 2rem auto;
-  .card-bolsos{
-    outline: 5px solid red;
+    .card-bolsos{
     border:1px solid rgba(215, 102, 16, 0.466);
-    padding: 0.01rem;
+   padding: 0.01rem; 
     border-radius: 5px;
-    box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
-    width: 15vw;
-    
-
-    img{
-      width: 14vw;
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
+    width: 20vw;
+     img{
+      padding: 0.4rem;
+      width: 15vw;
       border-radius: 5px;
     }
       
@@ -634,17 +627,16 @@ flex-direction: column;
     .card-bolsos{
       width: 20vw;
        img{
-        width: 20vw;
+        width: 19.8vw;
       }
     }
   }
  @media  (max-width: 1600px)and (min-width: 1200px){
     .card-bolsos{
-      outline: 5px solid yellow;
-      width: 25vw;
+     width: 25vw;
       margin: 1rem;
     img{
-        width: 25vw;
+        width: 24.8vw;
       }
     }
   }
@@ -653,7 +645,7 @@ flex-direction: column;
       width: 32vw;
       margin: 1rem;
       img{
-        width: 32vw;
+        width: 31.9vw;
       }
     }
   }
@@ -661,29 +653,24 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
     .card-bolsos{
-      outline: 5px solid rgb(10, 10, 10);
-    margin: auto;
+      margin: auto;
       width: 70vw;
       margin-top: 2rem;
-  
-      img{
-        width: 70vw;
+  img{
+        width: 69.9vw;
       }
     }
   }
 @media screen and (max-width: 420px){
-    
-      outline: 5px solid rgb(25, 31, 205);
-      width: 100vw;
+     width: 100vw;
       display: flex;
       flex-direction: column;
     .card-bolsos{
-      outline: 5px solid rgb(218, 246, 1);
-      width: 85vw;
+       width: 85vw;
       margin: auto;
       margin-top: 2rem;
     img{
-        width: 85vw;
+        width: 84.9vw;
       }
     }
   
@@ -696,7 +683,7 @@ flex-direction: column;
 /*  COJINES---------------------COJINES----------------------COJINES----------------------- */
 
 .container-cojines{
-  outline: 2px solid rgb(16, 53, 148);
+ 
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -708,13 +695,14 @@ flex-direction: column;
     border:1px solid rgba(215, 102, 16, 0.466);
     padding: 0.01rem;
     border-radius: 5px;
-    box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
     width: 15vw;
 
    img{
       width: 14.9vw;
       border-radius: 5px;
       text-align: center;
+      padding: 0.4rem;
     }
     h5{
       font-family: 'Quicksand', sans-serif;
@@ -750,7 +738,7 @@ flex-direction: column;
   }
  @media  (max-width: 1600px)and (min-width: 1200px){
     .card-cojines {
-      outline: 5px solid yellow;
+     
       width: 25vw;
       margin: 1rem;
     img{
@@ -761,11 +749,11 @@ flex-direction: column;
   
   @media screen and (max-width: 1199px){
     .card-cojines{
-      outline: 2px solid rgb(239, 168, 16);
+     
       width: 32vw;
       margin: 1rem;
       img{
-        width: 32vw;
+        width: 31.9vw;
       }
     }
   }
@@ -773,29 +761,29 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
     .card-cojines{
-      outline: 5px solid rgb(10, 10, 10);
+    
     margin: auto;
       width: 70vw;
       margin-top: 2rem;
   
       img{
-        width: 70vw;
+        width: 69.9vw;
       }
     }
   }
 @media screen and (max-width: 420px){
     
-      outline: 5px solid rgb(25, 31, 205);
+     
       width: 100vw;
       display: flex;
       flex-direction: column;
     .card-cojines{
-      outline: 5px solid rgb(218, 246, 1);
+   
       width: 85vw;
       margin: auto;
       margin-top: 2rem;
     img{
-        width: 85vw;
+        width: 84.9vw;
       }
     }
   
@@ -811,7 +799,7 @@ flex-direction: column;
 /* MANTAS.....................MANTAS................MANTAS................ */
 
 .container-mantas{
-  outline: 2px solid rgb(16, 53, 148);
+ 
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -823,12 +811,13 @@ flex-direction: column;
     border:1px solid rgba(215, 102, 16, 0.466);
     padding: 0.01rem;
     border-radius: 5px;
-    box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
     width: 15vw;
    img{
       width: 14.9vw;
       border-radius: 5px;
       text-align: center;
+      padding: 0.4rem;
     }
     h5{
       font-family: 'Quicksand', sans-serif;
@@ -864,17 +853,17 @@ flex-direction: column;
     .card-mantas{
       width: 20vw;
        img{
-        width: 20vw;
+        width: 19.9vw;
       }
     }
   }
  @media  (max-width: 1600px)and (min-width: 1200px){
     .card-mantas {
-      outline: 5px solid yellow;
+      
       width: 25vw;
       margin: 1rem;
     img{
-        width: 25vw;
+        width: 24.9vw;
       }
     }
   }
@@ -883,7 +872,7 @@ flex-direction: column;
       width: 32vw;
       margin: 1rem;
       img{
-        width: 32vw;
+        width: 31.9vw;
       }
     }
   }
@@ -891,29 +880,29 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
     .card-mantas{
-      outline: 5px solid rgb(10, 10, 10);
+     
     margin: auto;
       width: 70vw;
       margin-top: 2rem;
   
       img{
-        width: 70vw;
+        width: 69.9vw;
       }
     }
   }
 @media screen and (max-width: 420px){
     
-      outline: 5px solid rgb(25, 31, 205);
+   
       width: 100vw;
       display: flex;
       flex-direction: column;
     .card-mantas{
-      outline: 5px solid rgb(218, 246, 1);
+      
       width: 85vw;
       margin: auto;
       margin-top: 2rem;
     img{
-        width: 85vw;
+        width: 84.9vw;
       }
     }
   
@@ -925,7 +914,7 @@ flex-direction: column;
 /*  DELANTALES ....................DELANTALES.................. */
 
 .container-delantales{
-  outline: 2px solid rgb(16, 53, 148);
+
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -937,12 +926,13 @@ flex-direction: column;
     border:1px solid rgba(215, 102, 16, 0.466);
     padding: 0.01rem;
     border-radius: 5px;
-    box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
     width: 15vw;
    img{
       width: 14.9vw;
       border-radius: 5px;
       text-align: center;
+      padding: 0.4rem;
     }
     h5{
       font-family: 'Quicksand', sans-serif;
@@ -974,11 +964,11 @@ flex-direction: column;
   }
  @media  (max-width: 1600px)and (min-width: 1200px){
     .card-delantales{
-      outline: 5px solid yellow;
+    
       width: 25vw;
       margin: 1rem;
     img{
-        width: 25vw;
+        width: 24.9vw;
       }
     }
   }
@@ -987,7 +977,7 @@ flex-direction: column;
       width: 32vw;
       margin: 1rem;
       img{
-        width: 32vw;
+        width: 31.9vw;
       }
     }
   }
@@ -995,29 +985,29 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
     .card-delantales{
-      outline: 5px solid rgb(10, 10, 10);
+      
     margin: auto;
       width: 70vw;
       margin-top: 2rem;
   
       img{
-        width: 70vw;
+        width: 69.9vw;
       }
     }
   }
 @media screen and (max-width: 420px){
     
-      outline: 5px solid rgb(25, 31, 205);
+      
       width: 100vw;
       display: flex;
       flex-direction: column;
     .card-delantales{
-      outline: 5px solid rgb(218, 246, 1);
+    
       width: 85vw;
       margin: auto;
       margin-top: 2rem;
     img{
-        width: 85vw;
+        width: 84.9vw;
       }
     }
   
@@ -1031,13 +1021,13 @@ flex-direction: column;
  /* PONCHOS--------------------PONCHOS------------------ */
  
  .container-ponchos{
-  outline: 2px solid rgb(16, 53, 148);
+ 
   width: 80vw;
   margin: 2rem auto;
   img{
     width: 40vw;
     border:1px solid rgba(215, 102, 16, 0.466);
-    box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
     display: flex;
     border-radius: 5px;
      margin-left: auto;
@@ -1086,8 +1076,8 @@ flex-direction: column;
   text-align: center;
   margin: 2rem 2rem;
 }
-.container-personalizados{
-  outline: 2px solid rgb(16, 53, 148);
+/* container-personalizados{
+ 
   width: 80vw;
   display: flex;
   flex-direction: row;
@@ -1099,7 +1089,7 @@ flex-direction: column;
     border:1px solid rgba(215, 102, 16, 0.466);
     padding: 0.01rem;
     border-radius: 5px;
-    box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
     width: 25vw;
    img{
       width: 24.9vw;
@@ -1129,7 +1119,7 @@ flex-direction: column;
        
       }
   }
-}
+} */
 
 .galeria{
   margin: auto;

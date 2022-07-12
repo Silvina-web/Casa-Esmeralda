@@ -34,7 +34,6 @@ header h3 {
 }
 
 .main-container {
-  outline: 5px solid yellow;
   width: 85vw;
   margin: auto;
   margin-top: -2rem;
@@ -50,7 +49,6 @@ header h3 {
 }
 
 .main-container .secciones a {
-  outline: 5px solid green;
   width: 15vw;
   height: 25vh;
   text-align: center;
@@ -72,7 +70,6 @@ header h3 {
 
 @media (max-width: 1450px) {
   .main-container {
-    outline: 5px solid #0ee42e;
     width: 85vw;
     margin: auto;
     margin-top: -2rem;
@@ -85,7 +82,6 @@ header h3 {
     gap: 5em;
   }
   .main-container .secciones a {
-    outline: 5px solid #2c18b3;
     width: 20vw;
     height: 32vh;
     text-align: center;
@@ -108,7 +104,6 @@ header h3 {
   .main-container {
     width: 90vw;
     height: 65vh;
-    outline: 5px solid #df1882;
     margin-top: .5rem;
   }
   .main-container .secciones {
@@ -118,7 +113,6 @@ header h3 {
     gap: 1em;
   }
   .main-container .secciones a {
-    outline: 5px solid #efcc05;
     width: 20vw;
     height: 25vh;
     text-align: center;
@@ -142,7 +136,6 @@ header h3 {
   .main-container {
     width: 80vw;
     height: 90vh;
-    outline: 5px solid #8bdc1a;
   }
   .main-container .secciones {
     flex-direction: row;
@@ -151,7 +144,6 @@ header h3 {
     gap: 1em;
   }
   .main-container .secciones a {
-    outline: 5px solid green;
     width: 35vw;
     height: 22vh;
     text-align: center;
@@ -174,11 +166,9 @@ header h3 {
 @media (max-width: 600px) {
   .main-container {
     width: 90vw;
-    outline: 5px solid #33e01c;
     margin-top: 1rem;
   }
   .main-container .secciones {
-    outline: 5px solid #eb1010;
     padding-bottom: 10rem;
     flex-direction: column;
     flex-wrap: wrap;
@@ -186,7 +176,6 @@ header h3 {
     gap: 5em;
   }
   .main-container .secciones a {
-    outline: 5px solid black;
     width: 80vw;
     height: 50vh;
     margin: auto;
@@ -196,17 +185,17 @@ header h3 {
   }
   .main-container .secciones a img {
     width: 55vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.305);
   }
 }
 
 @media (max-width: 1024px) and (orientation: landscape) {
   .main-container {
     /* width: 90vw; */
-    outline: 5px solid #3b54c4;
     margin-top: 10rem;
   }
   .main-container .secciones {
-    outline: 5px solid #0b0707;
     padding-bottom: 10rem;
     flex-direction: column;
     flex-wrap: wrap;
@@ -214,7 +203,6 @@ header h3 {
     /*  gap: 5em; */
   }
   .main-container .secciones a {
-    outline: 5px solid #34e408;
     width: 80vw;
     height: 120vh;
     margin: auto;
@@ -224,12 +212,13 @@ header h3 {
   }
   .main-container .secciones a img {
     width: 60vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.305);
   }
 }
 
 @media (max-width: 750px) and (orientation: landscape) {
   .main-container .secciones a {
-    outline: 3px solid pink;
     width: 80vw;
     height: 170vh;
   }
@@ -295,19 +284,13 @@ footer a {
 
 .header-secciones .container-head {
   width: 20%;
-  outline: 2px solid #103594;
 }
 
 /* Barra de navegacion principal */
-.navbar {
-  outline: 2px solid blue;
-}
-
 .navbar .navbar-brand {
-  outline: 2px solid green;
   color: rgba(42, 44, 41, 0.96);
   /* HOME */
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .navbar .navbar-nav {
@@ -335,7 +318,6 @@ footer a {
 
 /* ALFOMBRAS ------------------ALFOMBRAS--------ALFOMBRAS-------------ALFOMBRAS*/
 .container-alfombras {
-  outline: 2px solid #103594;
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -350,12 +332,13 @@ footer a {
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
-  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+  box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
   width: 15vw;
 }
 
 .container-alfombras .card-alfombras img {
-  width: 14.9vw;
+  padding: 0.4rem;
+  width: 14vw;
   border-radius: 5px;
   text-align: center;
 }
@@ -390,7 +373,6 @@ footer a {
 
 @media (max-width: 1600px) and (min-width: 1200px) {
   .container-alfombras .card-alfombras {
-    outline: 5px solid yellow;
     width: 25vw;
     margin: 1rem;
   }
@@ -415,7 +397,6 @@ footer a {
     flex-direction: column;
   }
   .container-alfombras .card-alfombras {
-    outline: 5px solid #0a0a0a;
     margin: auto;
     width: 70vw;
     margin-top: 2rem;
@@ -427,13 +408,11 @@ footer a {
 
 @media screen and (max-width: 420px) {
   .container-alfombras {
-    outline: 5px solid #191fcd;
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
   .container-alfombras .card-alfombras {
-    outline: 5px solid #daf601;
     width: 85vw;
     margin: auto;
     margin-top: 2rem;
@@ -445,7 +424,6 @@ footer a {
 
 /* bandoleras--------------------bandoleras ------------------------- */
 .container-cards {
-  outline: 2px solid #103594;
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -460,12 +438,14 @@ footer a {
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
-  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+  box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
   width: 15vw;
 }
 
 .container-cards .card-bandoleras img {
   width: 15vw;
+  border-radius: 5px;
+  padding: 0.4rem;
 }
 
 .container-cards .card-bandoleras h5 {
@@ -498,7 +478,6 @@ footer a {
 
 @media (max-width: 1600px) and (min-width: 1200px) {
   .container-cards .card-bandoleras {
-    outline: 5px solid yellow;
     width: 25vw;
     margin: 1rem;
   }
@@ -523,7 +502,6 @@ footer a {
     flex-direction: column;
   }
   .container-cards .card-bandoleras {
-    outline: 5px solid #0a0a0a;
     margin: auto;
     width: 70vw;
     margin-top: 2rem;
@@ -535,25 +513,22 @@ footer a {
 
 @media screen and (max-width: 420px) {
   .container-cards {
-    outline: 5px solid #191fcd;
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
   .container-cards .card-bandoleras {
-    outline: 5px solid #daf601;
     width: 85vw;
     margin: auto;
     margin-top: 2rem;
   }
   .container-cards .card-bandoleras img {
-    width: 85vw;
+    width: 84.5vw;
   }
 }
 
 /* Bolsos------------Bolsos----------------Bolsos------------ */
 .container-bolsos {
-  outline: 2px solid #103594;
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -565,16 +540,16 @@ footer a {
 }
 
 .container-bolsos .card-bolsos {
-  outline: 5px solid red;
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
-  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
-  width: 15vw;
+  box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
+  width: 20vw;
 }
 
 .container-bolsos .card-bolsos img {
-  width: 14vw;
+  padding: 0.4rem;
+  width: 15vw;
   border-radius: 5px;
 }
 
@@ -602,18 +577,17 @@ footer a {
     width: 20vw;
   }
   .container-bolsos .card-bolsos img {
-    width: 20vw;
+    width: 19.8vw;
   }
 }
 
 @media (max-width: 1600px) and (min-width: 1200px) {
   .container-bolsos .card-bolsos {
-    outline: 5px solid yellow;
     width: 25vw;
     margin: 1rem;
   }
   .container-bolsos .card-bolsos img {
-    width: 25vw;
+    width: 24.8vw;
   }
 }
 
@@ -623,7 +597,7 @@ footer a {
     margin: 1rem;
   }
   .container-bolsos .card-bolsos img {
-    width: 32vw;
+    width: 31.9vw;
   }
 }
 
@@ -633,37 +607,33 @@ footer a {
     flex-direction: column;
   }
   .container-bolsos .card-bolsos {
-    outline: 5px solid #0a0a0a;
     margin: auto;
     width: 70vw;
     margin-top: 2rem;
   }
   .container-bolsos .card-bolsos img {
-    width: 70vw;
+    width: 69.9vw;
   }
 }
 
 @media screen and (max-width: 420px) {
   .container-bolsos {
-    outline: 5px solid #191fcd;
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
   .container-bolsos .card-bolsos {
-    outline: 5px solid #daf601;
     width: 85vw;
     margin: auto;
     margin-top: 2rem;
   }
   .container-bolsos .card-bolsos img {
-    width: 85vw;
+    width: 84.9vw;
   }
 }
 
 /*  COJINES---------------------COJINES----------------------COJINES----------------------- */
 .container-cojines {
-  outline: 2px solid #103594;
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -678,7 +648,7 @@ footer a {
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
-  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+  box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
   width: 15vw;
 }
 
@@ -686,6 +656,7 @@ footer a {
   width: 14.9vw;
   border-radius: 5px;
   text-align: center;
+  padding: 0.4rem;
 }
 
 .container-cojines .card-cojines h5 {
@@ -718,7 +689,6 @@ footer a {
 
 @media (max-width: 1600px) and (min-width: 1200px) {
   .container-cojines .card-cojines {
-    outline: 5px solid yellow;
     width: 25vw;
     margin: 1rem;
   }
@@ -729,12 +699,11 @@ footer a {
 
 @media screen and (max-width: 1199px) {
   .container-cojines .card-cojines {
-    outline: 2px solid #efa810;
     width: 32vw;
     margin: 1rem;
   }
   .container-cojines .card-cojines img {
-    width: 32vw;
+    width: 31.9vw;
   }
 }
 
@@ -744,37 +713,33 @@ footer a {
     flex-direction: column;
   }
   .container-cojines .card-cojines {
-    outline: 5px solid #0a0a0a;
     margin: auto;
     width: 70vw;
     margin-top: 2rem;
   }
   .container-cojines .card-cojines img {
-    width: 70vw;
+    width: 69.9vw;
   }
 }
 
 @media screen and (max-width: 420px) {
   .container-cojines {
-    outline: 5px solid #191fcd;
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
   .container-cojines .card-cojines {
-    outline: 5px solid #daf601;
     width: 85vw;
     margin: auto;
     margin-top: 2rem;
   }
   .container-cojines .card-cojines img {
-    width: 85vw;
+    width: 84.9vw;
   }
 }
 
 /* MANTAS.....................MANTAS................MANTAS................ */
 .container-mantas {
-  outline: 2px solid #103594;
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -789,7 +754,7 @@ footer a {
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
-  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+  box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
   width: 15vw;
 }
 
@@ -797,6 +762,7 @@ footer a {
   width: 14.9vw;
   border-radius: 5px;
   text-align: center;
+  padding: 0.4rem;
 }
 
 .container-mantas .card-mantas h5 {
@@ -823,18 +789,17 @@ footer a {
     width: 20vw;
   }
   .container-mantas .card-mantas img {
-    width: 20vw;
+    width: 19.9vw;
   }
 }
 
 @media (max-width: 1600px) and (min-width: 1200px) {
   .container-mantas .card-mantas {
-    outline: 5px solid yellow;
     width: 25vw;
     margin: 1rem;
   }
   .container-mantas .card-mantas img {
-    width: 25vw;
+    width: 24.9vw;
   }
 }
 
@@ -844,7 +809,7 @@ footer a {
     margin: 1rem;
   }
   .container-mantas .card-mantas img {
-    width: 32vw;
+    width: 31.9vw;
   }
 }
 
@@ -854,37 +819,33 @@ footer a {
     flex-direction: column;
   }
   .container-mantas .card-mantas {
-    outline: 5px solid #0a0a0a;
     margin: auto;
     width: 70vw;
     margin-top: 2rem;
   }
   .container-mantas .card-mantas img {
-    width: 70vw;
+    width: 69.9vw;
   }
 }
 
 @media screen and (max-width: 420px) {
   .container-mantas {
-    outline: 5px solid #191fcd;
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
   .container-mantas .card-mantas {
-    outline: 5px solid #daf601;
     width: 85vw;
     margin: auto;
     margin-top: 2rem;
   }
   .container-mantas .card-mantas img {
-    width: 85vw;
+    width: 84.9vw;
   }
 }
 
 /*  DELANTALES ....................DELANTALES.................. */
 .container-delantales {
-  outline: 2px solid #103594;
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -899,7 +860,7 @@ footer a {
   border: 1px solid rgba(215, 102, 16, 0.466);
   padding: 0.01rem;
   border-radius: 5px;
-  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+  box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
   width: 15vw;
 }
 
@@ -907,6 +868,7 @@ footer a {
   width: 14.9vw;
   border-radius: 5px;
   text-align: center;
+  padding: 0.4rem;
 }
 
 .container-delantales .card-delantales h5 {
@@ -939,12 +901,11 @@ footer a {
 
 @media (max-width: 1600px) and (min-width: 1200px) {
   .container-delantales .card-delantales {
-    outline: 5px solid yellow;
     width: 25vw;
     margin: 1rem;
   }
   .container-delantales .card-delantales img {
-    width: 25vw;
+    width: 24.9vw;
   }
 }
 
@@ -954,7 +915,7 @@ footer a {
     margin: 1rem;
   }
   .container-delantales .card-delantales img {
-    width: 32vw;
+    width: 31.9vw;
   }
 }
 
@@ -964,37 +925,33 @@ footer a {
     flex-direction: column;
   }
   .container-delantales .card-delantales {
-    outline: 5px solid #0a0a0a;
     margin: auto;
     width: 70vw;
     margin-top: 2rem;
   }
   .container-delantales .card-delantales img {
-    width: 70vw;
+    width: 69.9vw;
   }
 }
 
 @media screen and (max-width: 420px) {
   .container-delantales {
-    outline: 5px solid #191fcd;
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
   .container-delantales .card-delantales {
-    outline: 5px solid #daf601;
     width: 85vw;
     margin: auto;
     margin-top: 2rem;
   }
   .container-delantales .card-delantales img {
-    width: 85vw;
+    width: 84.9vw;
   }
 }
 
 /* PONCHOS--------------------PONCHOS------------------ */
 .container-ponchos {
-  outline: 2px solid #103594;
   width: 80vw;
   margin: 2rem auto;
 }
@@ -1002,7 +959,7 @@ footer a {
 .container-ponchos img {
   width: 40vw;
   border: 1px solid rgba(215, 102, 16, 0.466);
-  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
+  box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
   display: flex;
   border-radius: 5px;
   margin-left: auto;
@@ -1042,8 +999,8 @@ footer a {
   margin: 2rem 2rem;
 }
 
-.container-personalizados {
-  outline: 2px solid #103594;
+/* container-personalizados{
+ 
   width: 80vw;
   display: flex;
   flex-direction: row;
@@ -1051,41 +1008,41 @@ footer a {
   justify-content: space-around;
   gap: 2rem;
   margin: 2rem auto;
-}
-
-.container-personalizados .card-personalizados {
-  border: 1px solid rgba(215, 102, 16, 0.466);
-  padding: 0.01rem;
-  border-radius: 5px;
-  box-shadow: -5px 5px 15px rgba(217, 117, 41, 0.515);
-  width: 25vw;
-}
-
-.container-personalizados .card-personalizados img {
-  width: 24.9vw;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.container-personalizados .card-personalizados h5 {
-  font-family: 'Quicksand', sans-serif;
-  color: #a83e17da;
-  text-align: center;
-  margin: 2rem 2rem;
-}
-
-.container-personalizados .card-personalizados p {
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
-  padding: 0.5rem;
-}
-
-.container-personalizados .card-personalizados .precio {
-  font-size: 20px;
-  color: black;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
+  .card-personalizados{
+    border:1px solid rgba(215, 102, 16, 0.466);
+    padding: 0.01rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(215, 102, 16, 0.466);
+    width: 25vw;
+   img{
+      width: 24.9vw;
+      border-radius: 5px;
+      text-align: center;
+    }
+    h5{
+      font-family: 'Quicksand', sans-serif;
+      color: $color-principal;
+      text-align: center;
+      margin: 2rem 2rem;
+     
+    }
+    
+    p{
+  
+      text-align: center;
+      font-family: 'Quicksand', sans-serif;
+      padding: 0.5rem;
+      
+    }
+  
+     .precio{
+       font-size: 20px;
+       color: black;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       
+      }
+  }
+} */
 .galeria {
   margin: auto;
   width: 85vw;

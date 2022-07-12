@@ -2,7 +2,7 @@
     { "id": 1,
        "img":"../imgs/Bandolera1.jpeg",
        "nombre":"Bandolera Hawai",
-       "descripcion":"Bandolera lisa en lana acrílica y forrada en lino y tira en piel ecológica, confeccionada en técnica Punch.",
+       "descripcion":"Bandolera lisa en lana acrílica y forrada en lino, tira en piel ecológica, confeccionada en técnica Punch.",
        "medidas":"22x23",
        "otros":"",
        "precio": "€30"
@@ -10,7 +10,7 @@
     { "id": 2,
        "img":"../imgs/BandoleraNegra.jpg",
        "nombre":"Bandolera Hawai",
-       "descripcion":"Bandolera lisa en lana acrílica y forrada en lino y tira en piel ecológica, confeccionada en técnica Punch.",
+       "descripcion":"Bandolera lisa en lana acrílica y forrada en lino, tira en piel ecológica, confeccionada en técnica Punch.",
          "medidas":"22x23",
          "otros":"",
        "precio":" €30"
@@ -37,7 +37,7 @@
       "id": 5,
        "img":"../imgs/BandoCali1.jpeg",
        "nombre":"Bandolera California Rayada",
-       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica.",
        "medidas":"Diametro 23cm",
        "otros":"  ",
        "precio": " €30"
@@ -46,7 +46,7 @@
        "id": 6,
        "img":"../imgs/BandoCali2.jpeg",
        "nombre":"Bandolera California Rayada",
-       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica.",
        "medidas":"Diametro 23cm",
        "otros":"  ",
        "precio": " €30"
@@ -54,7 +54,7 @@
      { "id": 7,
       "img":"../imgs/BandoCali3.jpeg",
       "nombre":"Bandolera California Rayada",
-      "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+      "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica.",
       "medidas":"20 x 22",
       "otros":"  ",
       "precio": " €30"
@@ -63,7 +63,7 @@
        "id": 8,
        "img":"../imgs/BandoCali4.jpeg",
        "nombre":"Bandolera California Rayada",
-       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+       "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica.",
        "medidas":"20 x 22",
        "otros":"  ",
        "precio": " €30"
@@ -74,7 +74,7 @@
     "id": 9,
     "img":"../imgs/riñonera.jpeg",
     "nombre":"Bandolera California Rayada",
-    "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica .",
+    "descripcion":"Confeccionada a mano forrado con lino y bordado con técnica Punch Needle en lana acrílica.",
     "medidas":"20 x 22",
     "otros":"  ",
     "precio": " €30"

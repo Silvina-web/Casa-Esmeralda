@@ -3,7 +3,7 @@
        "id": "1",
        "img":"../imgs/AlfombraBejis2.jpeg",
        "nombre":"Alfombra Bejis",
-       "descripcion":"Tejida con técnica Punch Needle, bordada a ,mano. Materiales lana y acrílico. ",
+       "descripcion":"Tejida con técnica Punch Needle, bordada a mano. Materiales: lana y acrílico. ",
        "medidas":" Medidas: 2,50 x 2,50 cm",
        "otros":"Limpieza con jabón neutro y secado a la sombra",
        "precio":"Consultar precio"
@@ -13,7 +13,7 @@
       "id": "2",
        "img":"../imgs/AlfombraChobar2.jpg",
        "nombre":"Alfombra Chobar",
-       "descripcion":"Tejida con  técnica Punch Needle, bordada a mano. Materiales lana y acrílico. ",
+       "descripcion":"Tejida con  técnica Punch Needle, bordada a mano. Materiales: lana y acrílico. ",
        "medidas":" Medidas: 1.90 x 0.90cm",
        "otros":"Limpieza con jabón neutro y secado a la sombra",
        "precio": "Consultar precio"
@@ -22,7 +22,7 @@
       "id": "2",
        "img":"../imgs/Alfombra3.jpg",
        "nombre":"Alfombra Kalpa",
-       "descripcion":"Tejida con  técnica Punch Needle, bordada a mano. Materiales lana y acrílico. ",
+       "descripcion":"Tejida con  técnica Punch Needle, bordada a mano. Materiales: lana y acrílico. ",
        "medidas":" Medidas: 1.90 x 0.90cm",
        "otros":"Limpieza con jabón neutro y secado a la sombra",
        "precio": "Consultar precio"
